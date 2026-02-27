@@ -1,0 +1,848 @@
+{
+  "site_title": "Agoe the Idol//connoise",
+  "site_url": "https://connoi.se",
+  "site_description": "our faces are melting like popsicles!",
+  "pages": [
+    {
+      "id": "2",
+      "title": "Sample Page",
+      "slug": "sample-page",
+      "link": "https://connoi.se/sample-page/",
+      "date": "Sat, 07 Aug 2021 00:41:39 +0000",
+      "author": "connoise",
+      "content": "<p>This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:</p>\n\n<blockquote class=\"wp-block-quote\"><p>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</p></blockquote>\n\n<p>...or something like this:</p>\n\n<blockquote class=\"wp-block-quote\"><p>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</p></blockquote>\n\n<p>As a new WordPress user, you should go to <a href=\"https://connoi.se/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!</p>"
+    },
+    {
+      "id": "16",
+      "title": "Music About",
+      "slug": "about",
+      "link": "https://connoi.se/music/about/",
+      "date": "Sat, 07 Aug 2021 00:55:03 +0000",
+      "author": "connoise",
+      "content": "<p>email: im@connoi.se</p>\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Patreon Promo</title>\n  <style>\n    .gradient-box {\n      background: linear-gradient(90deg, purple, maroon, purple, maroon);\n      background-size: 200% 100%;\n      animation: gradientPan 3s ease-in-out infinite;\n      color: white;\n      padding: 20px;\n      font-family: Arial, sans-serif;\n      text-align: center;\n      border-radius: 10px;\n      max-width: 800px;\n      margin: 50px auto;\n      box-shadow: 0 4px 10px rgba(0,0,0,0.3);\n    }\n    \n    @keyframes gradientPan {\n      0% {\n        background-position: 0% 50%;\n      }\n      50% {\n        background-position: 100% 50%;\n      }\n      100% {\n        background-position: 0% 50%;\n      }\n    }\n    \n    .gradient-box a {\n      color: #ffe0f0;\n      text-decoration: underline;\n      font-weight: bold;\n      animation: breathe 2s ease-in-out infinite;\n    }\n    \n    @keyframes breathe {\n      0%, 100% {\n        color: #ffe0f0;\n      }\n      50% {\n        color: #ffdd00;\n      }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"gradient-box\">\n    <p>Join my Patreon for access to my entire discography!<br>Includes unreleased demos, WIPs, old projects, song covers<br>+ a chance to win a song commission from Agoe!<br>A new patron wins every month!<br>\n    <a href=\"https://www.patreon.com/AGOEtheidol\" target=\"_blank\">\n      https://www.patreon.com/AGOEtheidol\n    </a></p>\n  </div>\n</body>\n</html>\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Agoe the Idol Bio</title>\n  <style>\n    body {\n      margin: 0;\n      padding: 0;\n      font-family: Arial, sans-serif;\n      background: #000; /* fallback background */\n    }\n    .gradient-box {\n      background: #333;\n      color: white;\n      padding: 30px;\n      max-width: 700px;\n      margin: 50px auto;\n      border-radius: 12px;\n      box-shadow: 0 6px 20px rgba(0,0,0,0.4);\n      line-height: 1.6;\n      position: relative;\n      overflow: hidden;\n    }\n    \n    .gradient-box::before {\n      content: '';\n      position: absolute;\n      top: 0;\n      left: 0;\n      right: 0;\n      bottom: 0;\n      background: \n        radial-gradient(circle at 20% 30%, rgba(255,255,255,0.3) 0%, transparent 40%),\n        radial-gradient(circle at 80% 70%, rgba(128,128,128,0.4) 0%, transparent 35%),\n        radial-gradient(circle at 50% 20%, rgba(64,64,64,0.5) 0%, transparent 50%),\n        radial-gradient(circle at 10% 80%, rgba(192,192,192,0.3) 0%, transparent 30%),\n        radial-gradient(circle at 90% 10%, rgba(96,96,96,0.4) 0%, transparent 45%),\n        radial-gradient(circle at 70% 90%, rgba(160,160,160,0.3) 0%, transparent 40%),\n        radial-gradient(circle at 30% 60%, rgba(48,48,48,0.6) 0%, transparent 35%),\n        radial-gradient(circle at 60% 40%, rgba(224,224,224,0.2) 0%, transparent 55%);\n      animation: \n        spiral1 15s linear infinite,\n        bubble1 8s ease-in-out infinite,\n        noise1 12s linear infinite;\n      z-index: 1;\n    }\n    \n    .gradient-box::after {\n      content: '';\n      position: absolute;\n      top: 0;\n      left: 0;\n      right: 0;\n      bottom: 0;\n      background: \n        radial-gradient(circle at 40% 90%, rgba(0,0,0,0.4) 0%, transparent 30%),\n        radial-gradient(circle at 85% 25%, rgba(255,255,255,0.2) 0%, transparent 60%),\n        radial-gradient(circle at 15% 45%, rgba(112,112,112,0.5) 0%, transparent 40%),\n        radial-gradient(circle at 75% 65%, rgba(32,32,32,0.6) 0%, transparent 35%),\n        radial-gradient(circle at 25% 15%, rgba(176,176,176,0.3) 0%, transparent 50%),\n        radial-gradient(circle at 95% 85%, rgba(80,80,80,0.4) 0%, transparent 25%);\n      animation: \n        spiral2 18s linear infinite reverse,\n        bubble2 10s ease-in-out infinite,\n        noise2 14s linear infinite reverse;\n      z-index: 2;\n    }\n    \n    .gradient-box > * {\n      position: relative;\n      z-index: 3;\n    }\n    \n    @keyframes spiral1 {\n      0% { transform: rotate(0deg) scale(1); }\n      25% { transform: rotate(90deg) scale(1.1); }\n      50% { transform: rotate(180deg) scale(0.9); }\n      75% { transform: rotate(270deg) scale(1.05); }\n      100% { transform: rotate(360deg) scale(1); }\n    }\n    \n    @keyframes spiral2 {\n      0% { transform: rotate(0deg) scale(0.8); }\n      33% { transform: rotate(120deg) scale(1.2); }\n      66% { transform: rotate(240deg) scale(0.7); }\n      100% { transform: rotate(360deg) scale(0.8); }\n    }\n    \n    @keyframes bubble1 {\n      0%, 100% { \n        background-size: 200% 200%, 150% 150%, 180% 180%, 120% 120%, 160% 160%, 140% 140%, 110% 110%, 190% 190%;\n      }\n      50% { \n        background-size: 250% 250%, 200% 200%, 230% 230%, 170% 170%, 210% 210%, 190% 190%, 160% 160%, 240% 240%;\n      }\n    }\n    \n    @keyframes bubble2 {\n      0%, 100% { \n        background-size: 180% 180%, 220% 220%, 160% 160%, 140% 140%, 200% 200%, 130% 130%;\n      }\n      50% { \n        background-size: 230% 230%, 270% 270%, 210% 210%, 190% 190%, 250% 250%, 180% 180%;\n      }\n    }\n    \n    @keyframes noise1 {\n      0% { background-position: 0% 0%, 100% 100%, 50% 0%, 0% 100%, 100% 0%, 50% 100%, 25% 25%, 75% 75%; }\n      25% { background-position: 25% 25%, 75% 75%, 100% 25%, 25% 75%, 75% 25%, 0% 75%, 50% 50%, 100% 0%; }\n      50% { background-position: 50% 50%, 50% 50%, 0% 50%, 50% 50%, 50% 50%, 25% 50%, 75% 75%, 25% 25%; }\n      75% { background-position: 75% 75%, 25% 25%, 25% 75%, 75% 25%, 25% 75%, 50% 25%, 0% 0%, 50% 50%; }\n      100% { background-position: 100% 100%, 0% 0%, 50% 100%, 100% 0%, 0% 100%, 75% 0%, 25% 25%, 75% 75%; }\n    }\n    \n    @keyframes noise2 {\n      0% { background-position: 50% 50%, 0% 100%, 100% 0%, 25% 75%, 75% 25%, 50% 0%; }\n      33% { background-position: 75% 25%, 33% 66%, 66% 33%, 50% 50%, 100% 75%, 25% 100%; }\n      66% { background-position: 25% 75%, 66% 33%, 33% 66%, 75% 25%, 50% 100%, 0% 50%; }\n      100% { background-position: 0% 0%, 100% 0%, 0% 100%, 100% 100%, 25% 25%, 75% 75%; }\n    }\n    \n    .gradient-box h1 {\n      margin-top: 0;\n      font-size: 1.8em;\n    }\n    .gradient-box h2 {\n      margin-bottom: 10px;\n      font-size: 1.3em;\n      font-style: italic;\n      color: #ffd6f6;\n    }\n    .gradient-box p {\n      margin: 10px 0;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"gradient-box\">\n    <h1>Agoe the Idol</h1>\n    <h2>Independent idol from Honolulu, Hawaii</h2>\n    <p>Experimental pop music, digital art, and live performances. Everything is self produced!</p>\n    <h2>Bio:</h2>\n    <p>\n      For over a decade, Agoe the Idol has been making music and art in small, often overlooked corners of the internet. Endless names and micro-genres.\n\nCreativity was an existential act. Experimental. Isolating.\nA conduit for the ether. A condenser for being.\n\nNow, with renewed clarity and vision, Agoe the Idol steps forward with intention: an explosive debut!\n    </p>\n  </div>\n</body>\n</html>\n\n<p>Be an early adopter of Agoe the Idol! Booking: im@connoi.se</p>\n\n<p><a href=\"https://www.youtube.com/channel/UC7VrUM__C1suL8oyGUMINSA\" data-type=\"URL\" data-id=\"https://www.youtube.com/channel/UC7VrUM__C1suL8oyGUMINSA\"><ruby>YoutubeyoutubeYoutubeYoutubeYoutube<rp>(</rp><rt>eyeseyeseyeseyeseyeseyes videovideovideo</rt><rp>)</rp></ruby></a></p>\n\n<p><a href=\"http://instagram.com/agoetheidol\" data-type=\"link\" data-id=\"instagram.com/agoetheidol\">Insta: @agoetheidol</a></p>\n\n<p><a href=\"https://www.tiktok.com/@agoetheidol\" data-type=\"URL\" data-id=\"https://twitter.com/AGOtheGhost\">TikTok - @Agoetheidol</a></p>\n\n<p><a href=\"https://agoetheidol.bandcamp.com/\" data-type=\"URL\" data-id=\"https://agoyurei.bandcamp.com/\">BandcampBandcampBandcampBandcampBandcamp</a> <br><br><a href=\"https://connoi.se/music/april-2025-daily-songwriting-exercise/\" data-type=\"page\" data-id=\"615\">Newest Project: AGOE Collection Vol.1</a><br></p>\n\n<p></p>\n\n<p></p>"
+    },
+    {
+      "id": "17",
+      "title": "Contact",
+      "slug": "contact",
+      "link": "https://connoi.se/contact/",
+      "date": "Sat, 07 Aug 2021 00:55:03 +0000",
+      "author": "connoise",
+      "content": "<p>This is a page with some basic contact information, such as an address and phone number. You might also try a plugin to add a contact form.</p>"
+    },
+    {
+      "id": "43",
+      "title": "micromashii vol 3",
+      "slug": "micromashii-vol-3",
+      "link": "https://connoi.se/music/micromashii-vol-3/",
+      "date": "Sat, 07 Aug 2021 01:16:18 +0000",
+      "author": "connoise",
+      "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Patreon Promo</title>\n  <style>\n    .gradient-box {\n      background: linear-gradient(to right, purple, maroon);\n      color: white;\n      padding: 20px;\n      font-family: Arial, sans-serif;\n      text-align: center;\n      border-radius: 10px;\n      max-width: 600px;\n      margin: 50px auto;\n      box-shadow: 0 4px 10px rgba(0,0,0,0.3);\n    }\n\n    .gradient-box a {\n      color: #ffe0f0;\n      text-decoration: underline;\n      font-weight: bold;\n    }\n  </style>\n</head>\n<body>\n\n  <div class=\"gradient-box\">\n    <p>Available only on my Patreon!<br>\n    <a href=\"https://www.patreon.com/AGOEtheidol\" target=\"_blank\">\n      https://www.patreon.com/AGOEtheidol\n    </a></p>\n  </div>\n\n</body>\n</html>\n\n<p class=\"has-text-align-center\"><strong>MicroMashii Vol. 3 (2018)</strong></p>\n\n<figure class=\"wp-block-image aligncenter size-full is-resized\"><img src=\"https://connoi.se/wp-content/uploads/2021/08/Easy-1.jpg\" alt=\"\" class=\"wp-image-57\" style=\"width:300px;height:300px\"/><figcaption class=\"wp-element-caption\">[Easy] - Beach Beach BEACH</figcaption></figure>\n\n<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"https://connoi.se/wp-content/uploads/2021/10/night-1024x1024.png\" alt=\"\" class=\"wp-image-133\" style=\"width:300px;height:300px\"/><figcaption class=\"wp-element-caption\">[Normal] - Mashi Mashiin Maschin3 (Day and Night)</figcaption></figure>\n\n<figure class=\"wp-block-image aligncenter size-full is-resized\"><img src=\"https://connoi.se/wp-content/uploads/2021/08/Hard.jpg\" alt=\"\" class=\"wp-image-39\" style=\"width:300px;height:299px\"/><figcaption class=\"wp-element-caption\">[Hard] - Fever Night Bangers</figcaption></figure>\n\n<figure class=\"wp-block-image aligncenter size-full is-resized\"><img src=\"https://connoi.se/wp-content/uploads/2021/08/Max.jpg\" alt=\"\" class=\"wp-image-40\" style=\"width:308px;height:auto\"/><figcaption class=\"wp-element-caption\">[Max] - Coffin Mouth</figcaption></figure>\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Patreon Promo</title>\n  <style>\n    .gradient-box {\n      background: linear-gradient(to right, purple, maroon);\n      color: white;\n      padding: 20px;\n      font-family: Arial, sans-serif;\n      text-align: center;\n      border-radius: 10px;\n      max-width: 600px;\n      margin: 50px auto;\n      box-shadow: 0 4px 10px rgba(0,0,0,0.3);\n    }\n\n    .gradient-box a {\n      color: #ffe0f0;\n      text-decoration: underline;\n      font-weight: bold;\n    }\n  </style>\n</head>\n<body>\n\n  <div class=\"gradient-box\">\n    <p>Available only on my Patreon!<br>\n    <a href=\"https://www.patreon.com/AGOEtheidol\" target=\"_blank\">\n      https://www.patreon.com/AGOEtheidol\n    </a></p>\n  </div>\n\n</body>\n</html>"
+    },
+    {
+      "id": "15",
+      "title": "Connoise",
+      "slug": "create-your-website-with-blocks",
+      "link": "https://connoi.se/",
+      "date": "Mon, 20 Sep 2021 13:29:38 +0000",
+      "author": "connoise",
+      "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Connoise Portfolio</title>\n  <style>\n    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap');\n    \n    body {\n      margin: 0;\n      padding: 0;\n      font-family: 'Inter', Arial, sans-serif;\n      background: #000;\n      min-height: 100vh;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n    }\n    \n    .portfolio-container {\n      background: #333;\n      color: white;\n      padding: 60px 40px;\n      text-align: center;\n      border-radius: 16px;\n      max-width: 600px;\n      box-shadow: 0 8px 30px rgba(0,0,0,0.5);\n      position: relative;\n      overflow: hidden;\n    }\n    \n    .portfolio-container::before {\n      content: '';\n      position: absolute;\n      top: 0;\n      left: 0;\n      right: 0;\n      bottom: 0;\n      background: \n        radial-gradient(circle at 20% 30%, rgba(255,255,255,0.3) 0%, transparent 40%),\n        radial-gradient(circle at 80% 70%, rgba(128,128,128,0.4) 0%, transparent 35%),\n        radial-gradient(circle at 50% 20%, rgba(64,64,64,0.5) 0%, transparent 50%),\n        radial-gradient(circle at 10% 80%, rgba(192,192,192,0.3) 0%, transparent 30%),\n        radial-gradient(circle at 90% 10%, rgba(96,96,96,0.4) 0%, transparent 45%),\n        radial-gradient(circle at 70% 90%, rgba(160,160,160,0.3) 0%, transparent 40%),\n        radial-gradient(circle at 30% 60%, rgba(48,48,48,0.6) 0%, transparent 35%),\n        radial-gradient(circle at 60% 40%, rgba(224,224,224,0.2) 0%, transparent 55%);\n      animation: \n        spiral1 15s linear infinite,\n        bubble1 8s ease-in-out infinite,\n        noise1 12s linear infinite;\n      z-index: 1;\n    }\n    \n    .portfolio-container::after {\n      content: '';\n      position: absolute;\n      top: 0;\n      left: 0;\n      right: 0;\n      bottom: 0;\n      background: \n        radial-gradient(circle at 40% 90%, rgba(0,0,0,0.4) 0%, transparent 30%),\n        radial-gradient(circle at 85% 25%, rgba(255,255,255,0.2) 0%, transparent 60%),\n        radial-gradient(circle at 15% 45%, rgba(112,112,112,0.5) 0%, transparent 40%),\n        radial-gradient(circle at 75% 65%, rgba(32,32,32,0.6) 0%, transparent 35%),\n        radial-gradient(circle at 25% 15%, rgba(176,176,176,0.3) 0%, transparent 50%),\n        radial-gradient(circle at 95% 85%, rgba(80,80,80,0.4) 0%, transparent 25%);\n      animation: \n        spiral2 18s linear infinite reverse,\n        bubble2 10s ease-in-out infinite,\n        noise2 14s linear infinite reverse;\n      z-index: 2;\n    }\n    \n    .portfolio-container > * {\n      position: relative;\n      z-index: 3;\n    }\n    \n    .nav-link {\n      display: block;\n      font-size: 3rem;\n      font-weight: 100;\n      color: #ffffff;\n      text-decoration: none;\n      margin: 30px 0;\n      transition: all 0.3s ease;\n      letter-spacing: 0.05em;\n    }\n    \n    .nav-link:hover {\n      transform: scale(1.05);\n      text-shadow: 0 0 20px rgba(255,255,255,0.5);\n    }\n    \n    .nav-link.music {\n      animation: breathe-music 3s ease-in-out infinite;\n    }\n    \n    .nav-link.gis {\n      animation: breathe-gis 3.5s ease-in-out infinite;\n    }\n    \n    .nav-link.art {\n      animation: breathe-art 2.5s ease-in-out infinite;\n    }\n    \n    .nav-link.mushrooms {\n      animation: breathe-mushrooms 4s ease-in-out infinite;\n    }\n    \n    .nav-link.about {\n      animation: breathe-about 3.2s ease-in-out infinite;\n    }\n    \n    @keyframes spiral1 {\n      0% { transform: rotate(0deg) scale(1); }\n      25% { transform: rotate(90deg) scale(1.1); }\n      50% { transform: rotate(180deg) scale(0.9); }\n      75% { transform: rotate(270deg) scale(1.05); }\n      100% { transform: rotate(360deg) scale(1); }\n    }\n    \n    @keyframes spiral2 {\n      0% { transform: rotate(0deg) scale(0.8); }\n      33% { transform: rotate(120deg) scale(1.2); }\n      66% { transform: rotate(240deg) scale(0.7); }\n      100% { transform: rotate(360deg) scale(0.8); }\n    }\n    \n    @keyframes bubble1 {\n      0%, 100% { \n        background-size: 200% 200%, 150% 150%, 180% 180%, 120% 120%, 160% 160%, 140% 140%, 110% 110%, 190% 190%;\n      }\n      50% { \n        background-size: 250% 250%, 200% 200%, 230% 230%, 170% 170%, 210% 210%, 190% 190%, 160% 160%, 240% 240%;\n      }\n    }\n    \n    @keyframes bubble2 {\n      0%, 100% { \n        background-size: 180% 180%, 220% 220%, 160% 160%, 140% 140%, 200% 200%, 130% 130%;\n      }\n      50% { \n        background-size: 230% 230%, 270% 270%, 210% 210%, 190% 190%, 250% 250%, 180% 180%;\n      }\n    }\n    \n    @keyframes noise1 {\n      0% { background-position: 0% 0%, 100% 100%, 50% 0%, 0% 100%, 100% 0%, 50% 100%, 25% 25%, 75% 75%; }\n      25% { background-position: 25% 25%, 75% 75%, 100% 25%, 25% 75%, 75% 25%, 0% 75%, 50% 50%, 100% 0%; }\n      50% { background-position: 50% 50%, 50% 50%, 0% 50%, 50% 50%, 50% 50%, 25% 50%, 75% 75%, 25% 25%; }\n      75% { background-position: 75% 75%, 25% 25%, 25% 75%, 75% 25%, 25% 75%, 50% 25%, 0% 0%, 50% 50%; }\n      100% { background-position: 100% 100%, 0% 0%, 50% 100%, 100% 0%, 0% 100%, 75% 0%, 25% 25%, 75% 75%; }\n    }\n    \n    @keyframes noise2 {\n      0% { background-position: 50% 50%, 0% 100%, 100% 0%, 25% 75%, 75% 25%, 50% 0%; }\n      33% { background-position: 75% 25%, 33% 66%, 66% 33%, 50% 50%, 100% 75%, 25% 100%; }\n      66% { background-position: 25% 75%, 66% 33%, 33% 66%, 75% 25%, 50% 100%, 0% 50%; }\n      100% { background-position: 0% 0%, 100% 0%, 0% 100%, 100% 100%, 25% 25%, 75% 75%; }\n    }\n    \n    @keyframes breathe-music {\n      0%, 100% {\n        color: #ffffff;\n      }\n      50% {\n        color: #ff6b9d;\n      }\n    }\n    \n    @keyframes breathe-gis {\n      0%, 100% {\n        color: #ffffff;\n      }\n      50% {\n        color: #4ecdc4;\n      }\n    }\n    \n    @keyframes breathe-art {\n      0%, 100% {\n        color: #ffffff;\n      }\n      50% {\n        color: #ffd93d;\n      }\n    }\n    \n    @keyframes breathe-mushrooms {\n      0%, 100% {\n        color: #ffffff;\n      }\n      50% {\n        color: #8b5a3c;\n      }\n    }\n    \n    @keyframes breathe-about {\n      0%, 100% {\n        color: #ffffff;\n      }\n      50% {\n        color: #9c88ff;\n      }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"portfolio-container\">\n    <a href=\"https://connoi.se/music/\" class=\"nav-link music\">Music</a>\n    <a href=\"https://connoi.se/GIS/\" class=\"nav-link gis\">GIS</a>\n    <a href=\"https://connoi.se/art/\" class=\"nav-link art\">Digital Art</a>\n    <a href=\"https://connoi.se/mushroom/\" class=\"nav-link mushrooms\">Mushrooms</a>\n    <a href=\"https://connoi.se/about/\" class=\"nav-link about\">Contact + About Me</a>\n  </div>\n</body>\n</html>\n\n<p></p>"
+    },
+    {
+      "id": "95",
+      "title": "MicroMashii Vol. 3: [Easy] - Beach Beach BEACH",
+      "slug": "mm3-1",
+      "link": "https://connoi.se/music/micromashii-vol-3/mm3-1/",
+      "date": "Tue, 21 Sep 2021 13:11:18 +0000",
+      "author": "connoise",
+      "content": "<p class=\"has-text-align-center\" style=\"font-size:27px\"><strong>MicroMashii: Vol. 3 - [Easy] Beach Beach BEACH</strong></p>\n\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized\"><img src=\"https://connoi.se/wp-content/uploads/2021/09/Easy.jpg\" alt=\"\" class=\"wp-image-97\" width=\"546\" height=\"546\"/></figure></div>\n\n<p></p>\n\n<p class=\"has-text-align-left\"><br>1 - BOOM BOOM CATS CATS BOOM CATS (MACHO CATS)<br>2 - Anthony Fantano is an ISIS Extrmist Whomstved Actually Records All of His Videos Deep Within the Golden AK Palace of the Cal Chuchesta Opium Fields<br>3 - Honolulu Snow<br>4 - Kill_Muerder_Die Island<br>5 - Backseat Mahou Freestyle<br>6 - BOOM CATS -2015 edition - [magazine exclusive]<br><br>Works produced from 2009 to 2018<br>First part of the MicroMashii Volume 3 Series. <br>15min 45sec in length</p>\n\n<p><a href=\"https://connoi.se/download/micromashii-vol-3-easy-beach-beach-beach/\">https://connoi.se/download/micromashii-vol-3-easy-beach-beach-beach/</a></p>\n\n<p></p>"
+    },
+    {
+      "id": "109",
+      "title": "MicroMashii Vol. 3: [Normal] - Mashi Mashiin Machin3",
+      "slug": "mm3-2",
+      "link": "https://connoi.se/music/micromashii-vol-3/mm3-2/",
+      "date": "Tue, 21 Sep 2021 13:28:03 +0000",
+      "author": "connoise",
+      "content": "<p class=\"has-text-align-center\" style=\"font-size:25px\"><strong>MicroMashii: Vol. 3 - [Normal] Mashi Mashiin Machin3</strong></p>\n\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized\"><img src=\"https://connoi.se/wp-content/uploads/2021/10/Day.jpg\" alt=\"\" class=\"wp-image-130\" width=\"546\" height=\"546\"/></figure></div>\n\n<p></p>\n\n<p class=\"has-text-align-left\">(DOUBLE ALBUM)<br>Day [New Game]<br>1 - Your Heart, My Dear<br>2 - Big Tree and the Escape for You<br>3 - OTP<br>4 - Wishes<br>5 - <a href=\"Saria::\u00a9ontrol::ASS::END\">Saria::\u00a9ontrol::ASS::END</a><br>6 - Ship<br>7 - Heart Collection; The End of Life</p>\n\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized\"><img src=\"https://connoi.se/wp-content/uploads/2021/10/night-1024x1024.png\" alt=\"\" class=\"wp-image-133\" width=\"546\" height=\"546\"/></figure></div>\n\n<p class=\"has-text-align-left\"><br><br>Night [New Game+]<br>1 - P\u00c6CH FLAVORR<br>2 - 7 Idol Rap 7<br>3 - Bani\u00a5ahh<br>4 - PONPONOPONNPONNP<br>5 - Big Bang Go!<br>6 - Kimi Meow<br>7 - Feel: What(x2) is F A K E Love<br><br>Works produced from 2009 to 2018<br>Second part of Micromashii Vol. 3<br>33min 53sec in length </p>\n\n<p style=\"font-size:17px\"><a href=\"https://connoi.se/download/micromashii-vol-3-normal-mashi-mashiiin-maschin3/\" data-type=\"URL\" data-id=\"https://connoi.se/download/micromashii-vol-3-normal-mashi-mashiiin-maschin3/\">https://connoi.se/download/micromashii-vol-3-normal-mashi-mashiiin-maschin3/</a></p>\n\n<p></p>"
+    },
+    {
+      "id": "121",
+      "title": "micromashii description",
+      "slug": "micromashii",
+      "link": "https://connoi.se/micromashii/",
+      "date": "Fri, 24 Sep 2021 00:19:11 +0000",
+      "author": "connoise",
+      "content": "<p style=\"font-size:39px\"><strong>About the MicroMashii Series:</strong></p>\n\n<p style=\"font-size:15px\">MicroMashii are a light personal take on the Plunderponics genre. The project initially referenced music edited within unavoidable limitations: Curb-side PC parts, Longs CVS earbuds, no cables\\midi. These limitations combined with the creative wellspring of the golden age of shitposting created the technical template of the MicroMashii. There are no \u2018meanings\u2019 to the MicroMashii projects but the overall impression that should be taken is that each piece exists as an experiment in digital technique, composition, and fun.&nbsp;</p>\n\n<p style=\"font-size:15px\"><br><br>Mixes are created digitally with a limited use of traditional syncing techniques. The results create a base field of de-fazed swirling sample-scapes. From this point any direction of composition can be used to further develop the piece. Initially, the lack of computational resources made the stacking of digital compositional elements unpredictably unstable. The traditional \u2018glue\u2019 of compression and reverb are at times absent/cranked up for this reason. The sonic environment exists as a collage of unblended extremes.<br><br>Samples are cut and selected with little regard to digital source qualities. The clashes of maximalist/minimalist signatures lead to an active argument of tones; fever dream earthquake bumps, solemn peat moss jams. \u2018Digital source qualities\u2019 also refer to the more concrete publishing source of each sample.&nbsp; Some samples are manipulated beyond recognition and some are copy-pasted vanilla and sample sources are never cited. Production-wise this means that the MicroMashii will never be sold. I will remove samples if requested. This is a personal project I make no money but I will always respect individual wishes</p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2021/09/8-Helpless-M-1.mp3\"></audio><figcaption>MicroMashii Vol. 3 - Helpless M</figcaption></figure>\n\n<p style=\"font-size:15px\"><br><br>These bold limitations allow for the elements of digital manipulation to be picked apart piece-wise. It\u2019s an extremely simple technique that has shaped my signature sound. MicroMashii exists as the accessible fun of digital music making.</p>\n\n<p></p>\n\n<p> MicroMashii Vol. 1 <br>-Currently missing-</p>\n\n<p>MicroMashii Vol. 2 </p>\n\n<p>MicroMashii Vol. 3 <br>4 part release<br>[Easy] - Beach Beach BEACH<br>[Normal(+)] - Day/Night :: Double Album<br>[Hard] - Fever Night Bangers<br>[Max] - Coffin Mouth<br></p>"
+    },
+    {
+      "id": "155",
+      "title": "MicroMashii Vol. 3: [Hard] - Fever Night Bangers",
+      "slug": "mm3-3",
+      "link": "https://connoi.se/music/micromashii-vol-3/mm3-3/",
+      "date": "Sat, 23 Oct 2021 02:14:53 +0000",
+      "author": "connoise",
+      "content": "<p class=\"has-text-align-center\" style=\"font-size:25px\"><strong>MicroMashii: Vol. 3 - [Hard] - Fever Night Bangers</strong></p>\n\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-full\"><img src=\"https://connoi.se/wp-content/uploads/2022/01/Hard-1.jpg\" alt=\"\" class=\"wp-image-161\" width=\"546\" height=\"546\"></figure></div>\n\n<p class=\"has-text-align-left\"><br><br>Night [New Game+]<br>1 - UNYA<br>2 - HEAT 20ss A<br>3 - Mode B<br>4 - Hexagonal<br>5 - D Lotus<br>6 - I dont like people<br>7 - Na<br>8 - Helpless M<br>9 - Live Ghost Set<br><br>Works produced from 2009 to 2018<br>Third part of Micromashii Vol. 3<br>33min 30sec in length </p>\n\n<p style=\"font-size:17px\"><a href=\"https://connoi.se/download/micromashii-vol-3-hard-fever-night-bangers/\" data-type=\"URL\" data-id=\"https://connoi.se/download/micromashii-vol-3-hard-fever-night-bangers/\">https://connoi.se/download/micromashii-vol-3-hard-fever-night-bangers</a>/</p>\n\n<p></p>"
+    },
+    {
+      "id": "157",
+      "title": "MicroMashii Vol. 3: [Max] - Coffin Mouth",
+      "slug": "mm3-4",
+      "link": "https://connoi.se/music/micromashii-vol-3/mm3-4/",
+      "date": "Sat, 23 Oct 2021 02:15:26 +0000",
+      "author": "connoise",
+      "content": "<p class=\"has-text-align-center\" style=\"font-size:25px\"><strong>MicroMashii: Vol. 3 - [Normal] Mashi Mashiin Machin3</strong></p>\n\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-full\"><img src=\"https://connoi.se/wp-content/uploads/2022/01/Max.jpg\" alt=\"\" class=\"wp-image-169\" width=\"546\" height=\"546\"></figure></div>\n\n<p></p>\n\n<p class=\"has-text-align-left\">1 - Five Units<br>2 - Under Gingiva Peat<br>3 - Hunter Mother Knife<br>4 - Evil<br>5 - Untitled<br>6 - Yasashii Dream<br>7 - Coffin Mouth<br>8 - B<br>9 - Lonely Soul<br><br>Works produced from 2009 to 2018<br>Final part of Micromashii Vol. 3<br>28min 2sec in length</p>\n\n<p style=\"font-size:17px\"><a href=\"https://connoi.se/download/micromashii-vol-3-normal-mashi-mashiiin-maschin3/\" data-type=\"URL\" data-id=\"https://connoi.se/download/micromashii-vol-3-normal-mashi-mashiiin-maschin3/\">https://connoi.se/download/micromashii-vol-3-max-coffin-mouth/</a></p>\n\n<p></p>"
+    },
+    {
+      "id": "178",
+      "title": "Agoe the Idol(Music Front Page)",
+      "slug": "music",
+      "link": "https://connoi.se/music/",
+      "date": "Fri, 21 Jan 2022 20:32:37 +0000",
+      "author": "connoise",
+      "content": "<h2 class=\"wp-block-heading alignwide has-text-align-wide has-gigantic-font-size\" style=\"line-height:1.1\"></h2>\n\n<p class=\"has-text-align-center\"><a href=\"https://connoi.se/music/april-2025-daily-songwriting-exercise/\"><ruby>NEW COLLECTION: AGOE COLLECTION Vol.1<rp>(</rp><rt>May 2025</rt><rp>)</rp></ruby></a>\n\n<p class=\"has-text-align-center\"><a href=\"https://connoi.se/music/all-projects/\"><ruby>All Projects<rp>(</rp><rt>Music</rt><rp>)</rp></ruby></a>\n\n<figure class=\"wp-block-image size-full\"><img src=\"https://connoi.se/wp-content/uploads/2021/09/eyeshort_singleloop_small.gif\" alt=\"\" class=\"wp-image-86\"/></figure>\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  \n  <title>Patreon Promo</title>\n  <style>\n    .gradient-box {\n      background: #333;\n      color: white;\n      padding: 20px;\n      font-family: Arial, sans-serif;\n      text-align: center;\n      border-radius: 10px;\n      max-width: 800px;\n      margin: 50px auto;\n      box-shadow: 0 4px 10px rgba(0,0,0,0.3);\n      position: relative;\n      overflow: hidden;\n    }\n    \n    .gradient-box::before {\n      content: '';\n      position: absolute;\n      top: 0;\n      left: 0;\n      right: 0;\n      bottom: 0;\n      background: \n        radial-gradient(circle at 20% 30%, rgba(255,255,255,0.3) 0%, transparent 40%),\n        radial-gradient(circle at 80% 70%, rgba(128,128,128,0.4) 0%, transparent 35%),\n        radial-gradient(circle at 50% 20%, rgba(64,64,64,0.5) 0%, transparent 50%),\n        radial-gradient(circle at 10% 80%, rgba(192,192,192,0.3) 0%, transparent 30%),\n        radial-gradient(circle at 90% 10%, rgba(96,96,96,0.4) 0%, transparent 45%),\n        radial-gradient(circle at 70% 90%, rgba(160,160,160,0.3) 0%, transparent 40%),\n        radial-gradient(circle at 30% 60%, rgba(48,48,48,0.6) 0%, transparent 35%),\n        radial-gradient(circle at 60% 40%, rgba(224,224,224,0.2) 0%, transparent 55%);\n      animation: \n        spiral1 15s linear infinite,\n        bubble1 8s ease-in-out infinite,\n        noise1 12s linear infinite;\n      z-index: 1;\n    }\n    \n    .gradient-box::after {\n      content: '';\n      position: absolute;\n      top: 0;\n      left: 0;\n      right: 0;\n      bottom: 0;\n      background: \n        radial-gradient(circle at 40% 90%, rgba(0,0,0,0.4) 0%, transparent 30%),\n        radial-gradient(circle at 85% 25%, rgba(255,255,255,0.2) 0%, transparent 60%),\n        radial-gradient(circle at 15% 45%, rgba(112,112,112,0.5) 0%, transparent 40%),\n        radial-gradient(circle at 75% 65%, rgba(32,32,32,0.6) 0%, transparent 35%),\n        radial-gradient(circle at 25% 15%, rgba(176,176,176,0.3) 0%, transparent 50%),\n        radial-gradient(circle at 95% 85%, rgba(80,80,80,0.4) 0%, transparent 25%);\n      animation: \n        spiral2 18s linear infinite reverse,\n        bubble2 10s ease-in-out infinite,\n        noise2 14s linear infinite reverse;\n      z-index: 2;\n    }\n    \n    .gradient-box > * {\n      position: relative;\n      z-index: 3;\n    }\n    \n    @keyframes spiral1 {\n      0% { transform: rotate(0deg) scale(1); }\n      25% { transform: rotate(90deg) scale(1.1); }\n      50% { transform: rotate(180deg) scale(0.9); }\n      75% { transform: rotate(270deg) scale(1.05); }\n      100% { transform: rotate(360deg) scale(1); }\n    }\n    \n    @keyframes spiral2 {\n      0% { transform: rotate(0deg) scale(0.8); }\n      33% { transform: rotate(120deg) scale(1.2); }\n      66% { transform: rotate(240deg) scale(0.7); }\n      100% { transform: rotate(360deg) scale(0.8); }\n    }\n    \n    @keyframes bubble1 {\n      0%, 100% { \n        background-size: 200% 200%, 150% 150%, 180% 180%, 120% 120%, 160% 160%, 140% 140%, 110% 110%, 190% 190%;\n      }\n      50% { \n        background-size: 250% 250%, 200% 200%, 230% 230%, 170% 170%, 210% 210%, 190% 190%, 160% 160%, 240% 240%;\n      }\n    }\n    \n    @keyframes bubble2 {\n      0%, 100% { \n        background-size: 180% 180%, 220% 220%, 160% 160%, 140% 140%, 200% 200%, 130% 130%;\n      }\n      50% { \n        background-size: 230% 230%, 270% 270%, 210% 210%, 190% 190%, 250% 250%, 180% 180%;\n      }\n    }\n    \n    @keyframes noise1 {\n      0% { background-position: 0% 0%, 100% 100%, 50% 0%, 0% 100%, 100% 0%, 50% 100%, 25% 25%, 75% 75%; }\n      25% { background-position: 25% 25%, 75% 75%, 100% 25%, 25% 75%, 75% 25%, 0% 75%, 50% 50%, 100% 0%; }\n      50% { background-position: 50% 50%, 50% 50%, 0% 50%, 50% 50%, 50% 50%, 25% 50%, 75% 75%, 25% 25%; }\n      75% { background-position: 75% 75%, 25% 25%, 25% 75%, 75% 25%, 25% 75%, 50% 25%, 0% 0%, 50% 50%; }\n      100% { background-position: 100% 100%, 0% 0%, 50% 100%, 100% 0%, 0% 100%, 75% 0%, 25% 25%, 75% 75%; }\n    }\n    \n    @keyframes noise2 {\n      0% { background-position: 50% 50%, 0% 100%, 100% 0%, 25% 75%, 75% 25%, 50% 0%; }\n      33% { background-position: 75% 25%, 33% 66%, 66% 33%, 50% 50%, 100% 75%, 25% 100%; }\n      66% { background-position: 25% 75%, 66% 33%, 33% 66%, 75% 25%, 50% 100%, 0% 50%; }\n      100% { background-position: 0% 0%, 100% 0%, 0% 100%, 100% 100%, 25% 25%, 75% 75%; }\n    }\n    \n    .gradient-box a {\n      color: #ffe0f0;\n      text-decoration: underline;\n      font-weight: bold;\n      animation: breathe 2s ease-in-out infinite;\n    }\n    \n    @keyframes breathe {\n      0%, 100% {\n        color: #ffe0f0;\n      }\n      50% {\n        color: #ffdd00;\n      }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"gradient-box\">\n    <p>Join my Patreon for access to my entire discography!<br>Includes unreleased demos, WIPs, old projects, song covers<br>+ a chance to win a song commission from Agoe!<br>A new patron wins every month!<br>\n    <a href=\"https://www.patreon.com/AGOEtheidol\" target=\"_blank\">\n      https://www.patreon.com/AGOEtheidol\n    </a></p>\n  </div>\n</body>\n</html>\n\n<!-- Begin Mailchimp Signup Form -->\n<div id=\"mc_embed_signup\" style=\"color: white;\">\n<form action=\"http://eepurl.com/iSz9iI\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n    <div id=\"mc_embed_signup_scroll\">\n    <label for=\"mce-EMAIL\" style=\"color: white;\">Join the mailing list! Exclusive updates and perks. Get info before anyone else <3</label>\n    <input type=\"email\" value=\"\" name=\"EMAIL\" class=\"email\" id=\"mce-EMAIL\" placeholder=\"email address\" required style=\"color: white; background-color: grey;\">\n    <div style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\"><input type=\"text\" name=\"b_your_id_your_list_id\" tabindex=\"-1\" value=\"\"></div>\n    <div class=\"clear\"><input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\" style=\"color: white; background-color: grey;\"></div>\n    </div>\n</form>\n</div>\n<!--End mc_embed_signup-->\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    \n    \n    <title>Stylish Links with Ruby Annotations</title>\n    <style>\n        body {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            background-color: #181818;\n            margin: 0;\n            font-family: Arial, sans-serif;\n        }\n\n        .container {\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            color: #fff;\n            text-align: center;\n        }\n\n        .link {\n            display: block;\n            margin: 20px 0;\n            text-decoration: none;\n            color: #B306EA;\n            font-size: 24px;\n            animation: fade 6s linear infinite;\n        }\n\n        .link ruby {\n            font-style: italic;\n        }\n\n        .link:nth-child(1) {\n            animation-delay: 0s;\n        }\n\n        .link:nth-child(2) {\n            animation-delay: 2s;\n        }\n\n        .link:nth-child(3) {\n            animation-delay: 1.5s;\n        }\n\n        @keyframes fade {\n            0%, 100% {\n                opacity: 0;\n            }\n            50% {\n                opacity: 1;\n            }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container\">\n        <a href=\"https://connoi.se/music/all-projects/\" class=\"link\" data-type=\"URL\" data-id=\"connoi.se/music\">\n            <ruby>Music<rp>(</rp><rt>Downloads</rt><rp>)</rp></ruby>\n        </a>\n      \n        <a href=\"https://connoi.se/about\" class=\"link\">\n            <ruby>About<rp>(</rp><rt>Links</rt><rp>)</rp></ruby>\n        </a>\n    \n        <a href=\"https://connoi.se/music/streams\" class=\"link\" data-type=\"URL\" data-id=\"https://connoi.se/music/streams/\">\n            <ruby>Streams<rp>(</rp><rt>Live</rt><rp>)</rp></ruby>\n        </a>\n    </div>\n</body>\n</html>\n\n<p></p>"
+    },
+    {
+      "id": "190",
+      "title": "Streams",
+      "slug": "streams",
+      "link": "https://connoi.se/music/streams/",
+      "date": "Fri, 21 Jan 2022 21:46:09 +0000",
+      "author": "connoise",
+      "content": "<p>2024</p>\n\n<p>August 2024</p>\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://youtu.be/AnQTVBzKnVc?si=2O4wcIvuL4sNy7Sy\n</div></figure>\n\n<p>July 2024</p>\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=5sP9pvt_F50\n</div></figure>\n\n<p>2021</p>\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://youtu.be/YPCfX6X1pUw\n</div></figure>\n\n<p>2020</p>\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://www.youtube.com/watch?v=4D37oEp9Q9w\n</div></figure>\n\n<p>2019</p>\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\nhttps://youtu.be/xuvdUiiF6Is\n</div></figure>"
+    },
+    {
+      "id": "234",
+      "title": "Ultra Rare 12_30 Demos",
+      "slug": "ur12_30",
+      "link": "https://connoi.se/music/ur12_30/",
+      "date": "Wed, 16 Feb 2022 23:43:35 +0000",
+      "author": "connoise",
+      "content": "<p class=\"has-text-align-center\"><strong>AGO UR - ULTRA RARE(30 12 21 Demos) (2021)</strong></p>\n\n<figure class=\"wp-block-image size-full\"><a href=\"https://connoi.se/download/ago-ur-ultra-rare-12_30-demo/\"><img src=\"https://connoi.se/wp-content/uploads/2022/02/ULTRA-RARE.jpg\" alt=\"\" class=\"wp-image-238\"/></a><figcaption class=\"wp-element-caption\"><br>AGO UR - ULTRA RARE 12_30 Demos<br><br>1 - Moss and Nail<br>2 - Gachapon Eye<br>3 - Drown <br>4 - Nothing Else<br>5 - Noise Ash <br></figcaption></figure>\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Patreon Promo</title>\n  <style>\n    .gradient-box {\n      background: linear-gradient(to right, purple, maroon);\n      color: white;\n      padding: 20px;\n      font-family: Arial, sans-serif;\n      text-align: center;\n      border-radius: 10px;\n      max-width: 600px;\n      margin: 50px auto;\n      box-shadow: 0 4px 10px rgba(0,0,0,0.3);\n    }\n\n    .gradient-box a {\n      color: #ffe0f0;\n      text-decoration: underline;\n      font-weight: bold;\n    }\n  </style>\n</head>\n<body>\n\n  <div class=\"gradient-box\">\n    <p>Available only on my Patreon!<br>\n    <a href=\"https://www.patreon.com/AGOEtheidol\" target=\"_blank\">\n      https://www.patreon.com/AGOEtheidol\n    </a></p>\n  </div>\n\n</body>\n</html>\n\n<p></p>"
+    },
+    {
+      "id": "270",
+      "title": "Un-Uncommon (2023)",
+      "slug": "u",
+      "link": "https://connoi.se/music/u/",
+      "date": "Thu, 04 May 2023 05:37:05 +0000",
+      "author": "connoise",
+      "content": "<p class=\"has-text-align-center\"><strong><strong><strong><a href=\"https://agoe.bandcamp.com/album/un-uncommon\">Connoise - Un-Uncommon (2023)</a></strong></strong></strong></p>\n\n<figure class=\"wp-block-image size-large\"><img src=\"https://connoi.se/wp-content/uploads/2023/05/SNOW_20221219_100726_292-1024x1024.jpg\" alt=\"\" class=\"wp-image-273\"/><figcaption class=\"wp-element-caption\"><strong><strong>Connoise - Un-Uncommon (2023)</strong></strong><br><a href=\"https://distrokid.com/hyperfollow/connoise/un-uncommon\"><mark style=\"background-color:rgba(0, 0, 0, 0);color:#ffd4d2\" class=\"has-inline-color\">Now Streaming</mark></a><br><strong><strong><a href=\"https://agoetheidol.bandcamp.com/album/un-uncommon\">Bandcamp</a></strong></strong><br>1 - Fathers<br>2 - Distortions of a Transluscent Body<br>3 - Some Hearts, They Drone <br>4 - Exorcise Me 4 Love x<br>5 - Slugs Need OUR Help (Less Than Symbol)3<br>6 - Event Horizon Romantic<br>7 - You Are Alive in My Grief<br>8 - FastFashion<br>9 - Alone + Alone<br>10 - Alone []()<br>11 -\uff29 \uff2b \uff21 \uff23\uff49\uff54\uff59 \ufe19\uff55\uff2e\uff24\uff25\uff32\uff27\uff32\u3007\uff35\uff2e\uff24 <br>12 - Melt on My Tongue~_~<br>13 - Anime Weed Leaf<br>14 - and For Analog Dancers<br><br>January 2023<br></figcaption></figure>\n\n<p></p>\n\n<p></p>\n\n<div class=\"wp-block-group\"></div>\n\n<p></p>"
+    },
+    {
+      "id": "292",
+      "title": "Newsletter",
+      "slug": "newsletter",
+      "link": "https://connoi.se/newsletter/",
+      "date": "Thu, 21 Dec 2023 03:59:08 +0000",
+      "author": "connoise",
+      "content": "<p>im new to this<br>ill set up an email list in the near future<br>i cannot believe that I have become a person with a monthly personal newsletter</p>\n\n<p style=\"font-size:24px\"><a href=\"https://connoi.se/letters/january-2024/\" data-type=\"link\" data-id=\"https://connoi.se/letters/january-2024/\">January 2024 - and short recap of 2023</a></p>"
+    },
+    {
+      "id": "294",
+      "title": "Letters",
+      "slug": "letters",
+      "link": "https://connoi.se/letters/",
+      "date": "Thu, 21 Dec 2023 03:59:56 +0000",
+      "author": "connoise",
+      "content": "<p>Testing a new place to share things.</p>\n\n<p style=\"font-size:1px\">I dont know how to use html</p>\n\n<p>2023 Ending</p>\n\n<p><strong>2024</strong></p>\n\n<p style=\"font-size:20px\"><a href=\"https://connoi.se/january-2024/\" data-type=\"link\" data-id=\"https://connoi.se/january-2024/\">January</a> <br></p>"
+    },
+    {
+      "id": "297",
+      "title": "January 2024",
+      "slug": "january-2024",
+      "link": "https://connoi.se/newsletter/january-2024/",
+      "date": "Thu, 01 Feb 2024 04:20:29 +0000",
+      "author": "connoise",
+      "content": "<p>and short recap of 2023               - - - - -  -------(music at the end)</p>\n\n<div class=\"wp-block-group\">\n<p><br>Poem </p>\n\n<p>Recap on Genesis Lore</p>\n\n<div class=\"wp-block-group\">\n<div class=\"wp-block-group\">\n<p>Endless body saturated with potential, structure dream precipitate on the sharpest point. Pressure condenses, develops equally in all directions. A crystalline bubble of consequence grows.&nbsp;<br><br>Undulating consequence upon itself, a soapy film of connections : Universe. Simple rules and fundamental functions spill from an un-seeable primordial point. Each push inwards expressed an exponential stretch of the membrane.<br><br>Birthed consequence of consequence of dreams, pretend to be lost. Observe to live and reject the surface. Will the ocean invert a paradigm of oil? Will connections and rules sublimate to un-consequence?&nbsp;<br><br>We will pretend to be surprised.</p>\n</div>\n</div>\n</div>\n\n<p>-<br><br>-</p>\n\n<p>the Dunning-Kreuger curve is jank. The y-axis should be inverted as a bowl. Unwillingness to unlearn: Kunning-Dreuger. POV: the coaster car suspended on the precipice of action. A humming weakspot at the inflection blinks from the abyss. A confrontation with a reason to be proven wrong.<br>I don\u2019t like to discuss what I learn. It feels from my voice like projection. Ego sludge coats me in a perfect mirrored film. We all have access to the wiki-hippocampus so speaking is like saying the joke but louder.<br>I want to continue to radiate pure quirky frequency, but I struggle to fill </p>\n\n<p><br><br>The end state of millennial doomerism is to learn to love finding things to love. In 2023 I learned to love washing dishes.</p>\n\n<p>-</p>\n\n<p>In 2023 I started a medication combo that dissolved all of my thoughts. It carved channels through soft sulci. Topographies of maximum absolute production. Living felt like a natural spring hooked up to pressurized pipes. Even when I closed my mouth water escaped through the cracks.</p>\n\n<p>I could only think one word at a time</p>\n\n<p>Overclocked</p>\n\n<p>Supersaturated</p>\n\n<p>Wall Outlet</p>\n\n<p>Move forward</p>\n\n<p>Yawn</p>\n\n<p>Tremble</p>\n\n<p>I am a current</p>\n\n<p>Clean</p>\n\n<p>Shiver</p>\n\n<p>When I first started, every morning, medication in hand, I would try to remove the dirty chemical smell of new* bupropion with a single breath. ppppffffff-. I got used to the taste but I still do it. Just to greet them. my nakama. Our secret handshake. The pressure is lower. The decayed grooves of production remain. I drip my contents and can hold no definite volume</p>\n\n<p style=\"font-size:9px\">* They dont make em like they used to</p>\n\n<p><br>I had what I think is my first panic attack, which manifested as a plunge into dizziness and constant yawning. I actually just have a new 'thing' where I'm constantly yawning. Each yawn kinda feels like death crunching an ice cube while leaning 10degrees too far back in a flimsy desk chair. Its like the vacuum that follows a lightning bolt, from my face to my stomach. My jaw shivers and i bite my tongue to dampen the aftershock. I also enjoy cleaning now. I get by with less sleep. I suffer erratic micro-spasms and jerky muscle flexes. Water tastes bad. I go to work to create and come home to rest. Fitter, Happier\u2013</p>\n\n<p>It's a common thing with mental illness but I miss the bad times. Feeling rejected is a pit with no floor, but when you look up and see the surface shrink to a brilliant point you're suddenly just floating there. I was free to reject any or all parts of postmodern life. I lived through the seasons of bliss and suffering and nae-nae\u2019d[gritty\u2019d] over the quartz rumble of production. Hadal creatures, Dickinsonia-san, Sister Siphonophore, we understood the value of the cells in a leaf, an umbrella in the center of a street. Everything was beautiful and tragic and alive and already dead and I learned to love everything and I am no longer afraid of death.</p>\n\n<p>In the absence of the sun the grain still bows its chaff to the rain : infinite compassion.</p>\n\n<p>And now I am scared of sharing myself. I'm losing the momentum of madness. I have thoroughly become a crumbling stoic monument of inaction, observation.<br><br>I\u2019m tired of post anxiety. The Realname vs Anon dichotomy is wearing the avatars of both apollo and dionysus. I want to post cringe. It\u2019s the dirty living soul of the internet. But the old social spaces are no longer alive. The remaining theaters left to express the living soul only house the tools of diligence and dignity.<br><br>Every space is archived to be effortlessly interpreted and scored on a swealthy(wealthy sweaty?) Andy\u2019s big data side hustle. Most communities dissolve before they even get started. Everyone is scared that the digital skin they touch is actually the lining of the stomach. Discord servers with discord servers to secretly talk about other discord servers. Nebula without stars.</p>\n\n<p>so then there's </p>\n\n<p><mark style=\"background-color:rgba(0, 0, 0, 0);color:#e6922c\" class=\"has-inline-color\">this- </mark></p>\n\n<p>I want to share things here. Like my medicines and my learned loves and my future plans. Monthly packets of myself. I\u2019ll share song progress and other art. I want to precipitate my thoughts somewhere and I am paying 170+$ to host this site every year. To someone, maybe,  the spill of my calcified innards will ring like a struck stalactite.&nbsp;</p>\n\n<p>Meeting the primordial source is an exchange to meet the last thing that can be loved. We already know, finding it will be sad. But the ocean expanded vast, deep, saturated with bliss. I want to return back to a life in the shallows.&nbsp;</p>\n\n<p>Thank you for reading, thank you for expanding the universe with your presence</p>\n\n<p style=\"font-size:33px\">Music Progress Demos</p>\n\n<p>There's alot cause I didn't release anything last year. </p>\n\n<p style=\"font-size:23px\">Tracks from the planned concept album:</p>\n\n<p style=\"font-size:15px\">I want to share everything but it needs to live in the album</p>\n\n<p>Who Remembers the Ocean ? - 02 07 2024</p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/02/Who-Remembers-the-Ocean_2024_02_07.mp3\"></audio></figure>\n\n<p>Oosanshouuo - 02 07 2024</p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/02/Osanshouo_24_2_07.wav\"></audio></figure>\n\n<p>Dear Loneliness and Sadness(Part 2) - 01 2024</p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/02/Dear-Lonliness-and-Sadness-intro-Demo-_01_2024.mp3\"></audio></figure>\n\n<p>Theia(Part 2 - Genesis of the Two Skies) - 11 2023</p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/02/Theia-Part-2-Genesis-of-Two-Skys.mp3\"></audio></figure>\n\n<p></p>\n\n<p style=\"font-size:23px\">Remix demos for the planned new demo for distribution:</p>\n\n<p>Distortions of a Translucent Body - 11 2023</p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/02/Distortions-of-a-Translucent-Body-2023.mp3\"></audio></figure>\n\n<p style=\"font-size:23px\">Covers:</p>\n\n<p>Pokemon  - Village Bridge</p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/02/Pokemon-Village-Bridge11_11.wav\"></audio></figure>"
+    },
+    {
+      "id": "356",
+      "title": "February 2024 - Surviving the Internet",
+      "slug": "february-2024-surviving-the-internet",
+      "link": "https://connoi.se/letters/february-2024-surviving-the-internet/",
+      "date": "Mon, 08 Jan 2024 21:25:28 +0000",
+      "author": "connoise",
+      "content": ""
+    },
+    {
+      "id": "440",
+      "title": "Daily Song Project",
+      "slug": "dailyapril2024",
+      "link": "https://connoi.se/music/dailyapril2024/",
+      "date": "Thu, 04 Apr 2024 20:09:19 +0000",
+      "author": "connoise",
+      "content": "<p>04/01 - Stingray(So Boy)<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/01-Stingray-V2.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>No boy<br>So boy, oh<br>No boy<br><br>No boy, you're running after shadows <br>All you do is Run away<br>Like Barking at the terror <br>Going \u201cwoah, soo cold\u201d <br><br>So boy you like to play around the shadows <br>Sending \u201chiiii\u201d<br>So omnivore<br>But now youre coming back to me and<br><br>I dont want to know<br>I dont want you now<br>I dont want to know <br>Suh- Such a signature crises </p>\n</div></details></div>\n</div>\n\n<p>04/02 - Flinched<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/02-Flinched.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>I am floating through your screen: a false cherub<br>My wings can\u2019t hold any love<br>Iron and sulfur in my head</p>\n\n<p>I don't know where your heart beats but<br>I know that you're eternal</p>\n\n<p>Run away from here cause I want forever<br>Inferno<br>Even in the shade it all burns away<br>Run away from here cause I want forever<br>Inferno</p>\n</div></details></div>\n</div>\n\n<p>04/03 - Enough For You<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/03-Enough-For-You.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>3 ways to get better at friendships<br>5 ways to be a happier person<br>7 signs that you are on the right track<br>11 more signs that you are in love</p>\n\n<p>13 times that things fell apart<br>17 books to read before turning 30<br>19 activities to do as a couple<br>23 checks for yourself when 23 checks for you99999<br>29 mistakes that will cost you everything</p>\n\n<p>Just come through<br>I just cant be enough for you<br>For You<br>I just cant be enough for you</p>\n</div></details></div>\n</div>\n\n<p>04/04 - Thursday's Lessons<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/04-Thursdays-Lessons.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>On this Thursday, I have learned today<br>Most animals sleep on the side of their head<br>On this Thursday, I have learned today<br>That you need a member\u2019s card to get a hotdog</p>\n\n<p>On this Thursday, I have learned today<br>Yuru Camp has a new se<br>Son and spice and wolf and also eufo</p>\n\n<p>On this Thursday, I have learned today<br>That some songs<br>Are easier to write with less time<br>On this Thursday</p>\n</div></details></div>\n</div>\n\n<p>04/05 - 'Till I Die Trap Remix<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/05-Till-I-Die-Trap-Remix.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p></p>\n</div></details></div>\n</div>\n\n<p>04/06 - wITCH hAT<br>(weekends count as one day)<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/06-Witch-Hat.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>Young witch hat<br>Where your power at<br>You left it in a dream<br>You tryna get it back</p>\n\n<p>Mado Mado tsuki<br>Nasu eggplant<br>Call you to your window<br>You're flying with a strap</p>\n\n<p>leaning on a Rail <br>A-ah ah<br>Rainy dream attack<br>Na-ah ah</p>\n\n<p>I pinch you on your cheeks<br>Softly coming back<br>Hardly know her? Shes your friend<br>Pomiikoko chilling howling with the freaks<br>Even under Mars you can never enough<br>Sleepy light flickers harder on your oni thunder<br>I\u2019m your glowing starburst<br>Forests getting farther<br>Lights are getting farther<br>Street lights getting farther</p>\n\n<p>Mado mado tsuki<br>Fall asleep with me<br>I\u2019ll hold you in your dream<br>It can be so easy</p>\n\n<p>Nasu eggplant<br>Thoughts all nice and pleasing<br>Wake up with the feeling<br>You Don't need to dream me</p>\n\n<p>Mado mado tsuki<br>Fall asleep with me<br>I\u2019ll hold you in your dream<br>It can all be easy</p>\n\n<p>Nasu eggplant<br>Thoughts all nice and pleasing<br>Wake up in a dream<br>Wake up next to me</p>\n</div></details></div>\n</div>\n\n<p>04/08 - dot Fake Wings(.Hack Live Remix)<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/08-dot-Fake-Wings.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p></p>\n</div></details></div>\n</div>\n\n<p>04/09 - Hot<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/09-Hot.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>Now You're Over, you're over<br>Ooooo. Ooooo<br>Love Letter, love letter<br>Ooooo. Ooooo<br>Love Letter</p>\n</div></details></div>\n</div>\n\n<p>04/10 - Failed Remora Song<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/10-Failed-Remora-Song.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>I love it how you <br>hold to me<br>like a remora<br>its hard to breathe, to breathe, to breathe<br>On your endless taxing fill<br>Attachment attachment<br><br>Hold you to me<br>like a remora<br>I get to breathe, to breathe, to breathe<br>from your weak and tiny gills<br>Attachment attachment</p>\n\n<p><br> </p>\n</div></details></div>\n</div>\n\n<p>04/11 - The Pakalolo Track<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/11-Pakalolo-Song.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>My sole burden is burning<br>Like OLEDs I'm burnt<br>So we inhale<br>Don't hold it<br>Hotbox the corolla driving through the haze like morning<br>Night to dawn to night just smoking,<br>Blunt to blunt to blunt just smoking<br>Pass the bong and don't say, I\u2019m lazy<br><br>A light hybrid hazy<br>Fiend rotation got so crazy<br>And my new jeans got so faded<br>Yeah we smoking blunts with Hyein<br>Weed smoke girlfriend look like Hyein<br>Leaning to me and she's saying<br>Get it quick, shes craving<br>So pull up, and l take it</p>\n\n<p>Baja blast in backpacks<br>Sauces lined like cases<br>She starting to laugh cause we made<br>Don't worry, don't worry, we made we made it</p>\n\n<p><br> </p>\n</div></details></div>\n</div>\n\n<p>04/15 - Deep Breath<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/15-Deep-Breath.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>Descent<br>Your signal shrinks<br>Soon a mention:<br>starlight from a distance</p>\n\n<p>A bone dropped in a well<br>Dissolves<br>Heaven sits on an axis<br>At the center, a smooth<br>Body rejects her lovers<br>From a speaker speak a mantra:</p>\n\n<p>\u201cDont escape the ocean<br>Your shape is lost forever\u201d</p>\n\n<p>Lost in Hadal<br>Blinking down to a needle</p>\n\n<p>So, Lost in Hadal<br>Glide through that halo</p>\n\n<p>Just Last April<br>I left my friends<br>I could not look away</p>\n\n<p>Everything is too bright for me<br>Hadal compress</p>\n\n<p><br> </p>\n</div></details></div>\n</div>\n\n<p>04/16 - Letter<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/16-Letter.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>Suffer long from now<br>Starlight crossing endless clouds</p>\n\n<p>Slipping through the ground<br>Solid state love<br>Far away from here<br>Your ends are cut</p>\n\n<p>Hold my hand for now</p>\n\n<p><br> </p>\n</div></details></div>\n</div>\n\n<p>04/17 - Nothing Happens in April<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/17-Nothing-Happens-in-April.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>Shameful shadow<br>It smells like just flowers falling<br>On your couch<br>Just one night, one night<br>One kiss, one hit<br>On the floor wowooa<br><br>Shameful shadow<br>Who looks like sakura falling<br>On your couch<br>Just one night<br>One april kiss, one kiss<br>Woooaoooo</p>\n\n<p><br> </p>\n</div></details></div>\n</div>\n\n<p>04/20 - Kaomoji Bby<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/20-Kaomoji-Baby.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>Fading<br>What if we never go back, I\u2019m thinking<br>Maybe We can get<br>Out of this room and sleep<br>Lately I can't<br>Remember my own dream<br>Or don't<br>Think so<br>Send to me<br>Kaomoji baby</p>\n\n<p>Fated<br>What if we\u2019re never looking back<br>I\u2019m thinking<br>Maybe We can get<br>Out of this room and sleep<br>Lately I don't<br>Remember my own dreams<br>Or at I don't<br>Think so<br>Send to me<br>Kaomoji baby</p>\n\n<p><br> </p>\n</div></details></div>\n</div>\n\n<p>04/22 - Failure<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/22-Failure-1.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p></p>\n</div></details></div>\n</div>\n\n<p>04/23 - Pass Interference<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/23-Pass-Interference.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>Let's walk to the tear-less coast<br>Keep cool it's only a trial<br>Except I am here with you<br>We rest out heads over the sea<br>We fell asleep on the beach</p>\n\n<p>Sighs sounds from the earth<br>Told to no one else, but you<br>Feelings tied in a knot<br>Intangible<br>Feelings only for you</p>\n</div></details></div>\n</div>\n\n<p>04/24 - Hardware<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/24-Hardware.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>I spent all my time getting my keyboard to work right and had to improv this with all my available pedals</p>\n</div></details></div>\n</div>\n\n<p>04/25 - Uncomplimentary Colors<br></p>\n\n<figure class=\"wp-block-audio\"><audio controls src=\"https://connoi.se/wp-content/uploads/2024/04/25-Unomplimentary-Hues.wav\"></audio></figure>\n\n<div class=\"wp-block-coblocks-accordion\">\n<div class=\"wp-block-coblocks-accordion-item\"><details><summary class=\"wp-block-coblocks-accordion-item__title\">Expand Lyrics</summary><div class=\"wp-block-coblocks-accordion-item__content\">\n<p>Oh, you fell right through me, oh oh<br>You left your vape by the window<br>I sent you a message<br>Discarded piece</p>\n\n<p>Limerence<br>Deliver</p>\n\n<p>Maybe maybe you felt like a lover<br>Another silent message<br>I thought that I would see you again<br>Cause maybe maybe you felt like a lover<br>Limerence</p>\n</div></details></div>\n</div>"
+    },
+    {
+      "id": "523",
+      "title": "test",
+      "slug": "test-html",
+      "link": "https://connoi.se/test-html/",
+      "date": "Thu, 06 Jun 2024 01:58:50 +0000",
+      "author": "connoise",
+      "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Stylish Links with Ruby Annotations</title>\n    <style>\n        body {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            background-color: #181818;\n            margin: 0;\n            font-family: Arial, sans-serif;\n        }\n\n        .container {\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            color: #fff;\n            text-align: center;\n        }\n\n        .link {\n            display: block;\n            margin: 20px 0;\n            text-decoration: none;\n            color: #ff0000;\n            font-size: 24px;\n            animation: fade 6s linear infinite;\n            transform: rotate(90deg);\n        }\n\n        .link ruby {\n            font-style: italic;\n        }\n\n        .link:nth-child(1) {\n            animation-delay: 0s;\n        }\n\n        .link:nth-child(2) {\n            animation-delay: 2s;\n        }\n\n        .link:nth-child(3) {\n            animation-delay: 4s;\n        }\n\n        @keyframes fade {\n            0%, 100% {\n                opacity: 0;\n            }\n            50% {\n                opacity: 1;\n            }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container\">\n        <a href=\"http://connoi.se/music\" class=\"link\" data-type=\"URL\" data-id=\"connoi.se/music\">\n            <ruby>Music<rp>(</rp><rt>Downloads</rt><rp>)</rp></ruby>\n        </a>\n        <br>\n        <a href=\"https://connoi.se/about\" class=\"link\"><ruby>About<rp>(</rp><rt>Links</rt><rp>)</rp></ruby></a>\n        <br>\n        <a href=\"https://connoi.se/music/streams\" class=\"link\" data-type=\"URL\" data-id=\"https://connoi.se/music/streams/\">\n            <ruby>Streams<rp>(</rp><rt>Live</rt><rp>)</rp></ruby>\n        </a>\n    </div>\n</body>\n<style>\n  a:hover, a:hover ruby, a:hover rt {\n    color: white;\n  }\n</style>\n</html>\n\n<!-- <p class=\"has-text-align-center\"><a href=\"http://connoi.se/music\" data-type=\"URL\" data-id=\"connoi.se/music\"><ruby>Music<rp>(</rp><rt>Downloads</rt><rp>)</rp></ruby></a><br><a href=\"https://connoi.se/about/\"><ruby>About<rp>(</rp><rt>Links</rt><rp>)</rp></ruby></a><br><a href=\"https://connoi.se/music/streams/\" data-type=\"URL\" data-id=\"https://connoi.se/music/streams/\"><ruby>Streams<rp>(</rp><rt>Live</rt><rp>)</rp></ruby></a>\n<style>\n  a:hover, a:hover ruby, a:hover rt {\n    color: white;\n  }\n</style>\n<!-- <br><a href=\"https://connoi.se/newsletter/\"><ruby>Newsletter<rp>(</rp><rt>Monthly</rt><rp>)</rp></ruby></a> -->\n\n<p class=\"has-text-align-center\"><a href=\"http://connoi.se/music\" data-type=\"URL\" data-id=\"connoi.se/music\"><ruby>Music<rp>(</rp><rt>Downloads</rt><rp>)</rp></ruby></a><br><a href=\"https://connoi.se/about/\"><ruby>About<rp>(</rp><rt>Links</rt><rp>)</rp></ruby></a><br><a href=\"https://connoi.se/music/streams/\" data-type=\"URL\" data-id=\"https://connoi.se/music/streams/\"><ruby>Streams<rp>(</rp><rt>Live</rt><rp>)</rp></ruby></a>\n\n<!-- <br><a href=\"https://connoi.se/newsletter/\"><ruby>Newsletter<rp>(</rp><rt>Monthly</rt><rp>)</rp></ruby></a> -->\n\n<style>\n  a:hover, a:hover ruby, a:hover rt {\n    color: white;\n  }\n</style>"
+    },
+    {
+      "id": "565",
+      "title": "Nothing Happens in April",
+      "slug": "nothing-happens-in-april",
+      "link": "https://connoi.se/music/nothing-happens-in-april/",
+      "date": "Sun, 30 Jun 2024 08:14:23 +0000",
+      "author": "connoise",
+      "content": "<figure class=\"wp-block-image aligncenter size-large\"><img src=\"https://connoi.se/wp-content/uploads/2024/06/20240626_190237-1024x1024.jpg\" alt=\"\" class=\"wp-image-566\"/></figure>\n\n<p class=\"has-text-align-center\"><strong>AGOE - Nothing Happens in April</strong><br><a href=\"https://distrokid.com/hyperfollow/agoe/nothing-happens-ion-april\">Now Streaming</a><br><a href=\"https://agoetheidol.bandcamp.com/album/nothing-happens-in-april\">Bandcamp</a><br>1 - So Boy<br>2 - Flinched<br>3 - Enough For You<br>4 - Thursday's Lessons<br>5 - wITCH hAT<br>6 - Hot<br>7 - Failed Remora Song<br>8 - Pakalolo Song<br>9 - Soaked Breath<br>10 - Letter<br>11 - Kaomoji Baby<br>12 - Failed Pop Song<br>13 - Pass Interference<br>14 - Hardware<br>15 - Limerence<br>16 - Graveyard Pop<br>17 - So Boy X<br>18 - Flinched X<br>19 - Kaomoji Baby X<br>20 - Limerence X<br><br>July 2024</p>"
+    },
+    {
+      "id": "615",
+      "title": "AGOE Collection Vol.1(2025)",
+      "slug": "april-2025-daily-songwriting-exercise",
+      "link": "https://connoi.se/music/april-2025-daily-songwriting-exercise/",
+      "date": "Tue, 22 Apr 2025 18:30:23 +0000",
+      "author": "connoise",
+      "content": "<figure class=\"wp-block-image aligncenter size-large is-resized has-lightbox\"><a href=\"https://agoetheidol.bandcamp.com/album/agoe-collection-vol-1\"><img src=\"https://connoi.se/wp-content/uploads/2025/05/output-onlinepngtools1-1024x1024.png\" alt=\"\" class=\"wp-image-672\" style=\"width:484px;height:auto\"/></a></figure>\n\n<p class=\"has-text-align-center\"><a href=\"https://agoetheidol.bandcamp.com/album/agoe-collection-vol-1\" data-type=\"link\" data-id=\"https://agoetheidol.bandcamp.com/album/agoe-collection-vol-1\">Bandcamp</a><br><a href=\"https://distrokid.com/hyperfollow/agoetheidol/agoe-collection-vol-1-2\" data-type=\"link\" data-id=\"https://distrokid.com/hyperfollow/agoetheidol/agoe-collection-vol-1-2\">Streaming</a></p>\n\n<p></p>"
+    },
+    {
+      "id": "748",
+      "title": "All Projects",
+      "slug": "all-projects",
+      "link": "https://connoi.se/music/all-projects/",
+      "date": "Tue, 27 May 2025 21:27:41 +0000",
+      "author": "connoise",
+      "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  \n  <title>Patreon Promo</title>\n  <style>\n    .gradient-box {\n      background: linear-gradient(to right, purple, maroon);\n      color: white;\n      padding: 20px;\n      font-family: Arial, sans-serif;\n      text-align: center;\n      border-radius: 10px;\n      max-width: 800px;\n      margin: 50px auto;\n      box-shadow: 0 4px 10px rgba(0,0,0,0.3);\n    }\n\n    .gradient-box a {\n      color: #ffe0f0;\n      text-decoration: underline;\n      font-weight: bold;\n    }\n  </style>\n</head>\n<body>\n\n  <div class=\"gradient-box\">\n    <p>Join my Patreon for access to my entire discography!<br>Includes unreleased demos, WIPs, old projects, song covers<br>+ a chance to win a song commission from Agoe!<br>\n    <a href=\"https://www.patreon.com/AGOEtheidol\" target=\"_blank\">\n      https://www.patreon.com/AGOEtheidol\n    </a></p>\n  </div>\n\n</body>\n</html>\n\n<p class=\"has-text-align-center\">2025</p>\n\n<p class=\"has-text-align-center\"><a href=\"https://connoi.se/music/april-2025-daily-songwriting-exercise/\">AGOE Collection Vol.1</a></p>\n\n<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"https://connoi.se/wp-content/uploads/2025/05/output-onlinepngtools1-1-1024x1024.png\" alt=\"\" class=\"wp-image-710\" style=\"width:463px;height:auto\"/></figure>\n\n<p class=\"has-text-align-center\">2024</p>\n\n<p class=\"has-text-align-center\"><a href=\"https://connoi.se/nothing-happens-in-april/\"><strong>AGOE -</strong> <strong>Nothing Happens in April</strong></a></p>\n\n<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"https://connoi.se/wp-content/uploads/2024/06/20240626_190237-1-1024x1024.jpg\" alt=\"\" class=\"wp-image-590\" style=\"width:454px;height:auto\"/></figure>\n\n<p class=\"has-text-align-center\">Released July 2024</p>\n\n<p class=\"has-text-align-center\"><a href=\"https://connoi.se/music/dailyapril2024/\"><strong>April Daily Song Project</strong></a><br>A song written everyday. Compiled and polished into the album Nothing Happens in April.</p>\n\n<p>WIPs:<br></p>\n\n<p><strong>AGOE - Demo</strong></p>\n\n<p>A showcase of songs performed during live sets. This includes new tracks written in 2023 and new edits and mastering to tracks from Un-uncommon.</p>\n\n<p><strong>AGOE - Oosanshouo and Theia</strong></p>\n\n<p>Current Main project. A concept double album about the ends of desire. Nearly everything is new compositions.</p>\n\n<p class=\"has-text-align-center\">2023</p>\n\n<p class=\"has-text-align-center\"><strong><strong><a href=\"https://connoi.se/music/u/\" data-type=\"URL\" data-id=\"https://connoi.se/music/u/\">Connoise - Un-Uncommon (2023</a>)</strong></strong></p>\n\n<figure class=\"wp-block-image aligncenter size-large is-resized\"><img src=\"https://connoi.se/wp-content/uploads/2023/05/SNOW_20221219_100726_292-1024x1024.jpg\" alt=\"\" class=\"wp-image-273\" style=\"width:467px;height:auto\"/></figure>\n\n<p class=\"has-text-align-center\"><strong><a href=\"https://connoi.se/music/ur12_30/\"></a><strong><a href=\"https://connoi.se/music/ur12_30/\">AGO UR - ULTRA RARE 12_30 Demos (2021)</a></strong></strong></p>\n\n<figure class=\"wp-block-image aligncenter size-full is-resized\"><a href=\"https://connoi.se/music/ur12_30/\"><img src=\"https://connoi.se/wp-content/uploads/2022/02/ULTRA-RARE-1.jpg\" alt=\"\" class=\"wp-image-247\" style=\"width:461px;height:auto\"/></a></figure>\n\n<p class=\"has-text-align-center\"><strong><a href=\"https://connoi.se/music/micromashii-vol-3/\" data-type=\"URL\" data-id=\"https://connoi.se/music/micromashii-vol-3/\">MicroMashii Vol. 3 (2018)</a></strong></p>\n\n<figure class=\"wp-block-image aligncenter size-full is-resized\"><img src=\"https://connoi.se/wp-content/uploads/2025/05/micromashivol3-768x768-1.jpg\" alt=\"\" class=\"wp-image-693\" style=\"width:514px;height:auto\"/></figure>\n\n<p class=\"has-text-align-center\">Five part album. The final MicroMashii project.</p>\n\n<div class=\"wp-block-group\">\n<p></p>\n</div>\n\n<p></p>"
+    },
+    {
+      "id": "763",
+      "title": "About",
+      "slug": "about",
+      "link": "https://connoi.se/about/",
+      "date": "Tue, 27 May 2025 21:52:49 +0000",
+      "author": "connoise",
+      "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>About - Connoise</title>\n  <style>\n    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap');\n    \n    body {\n      margin: 0;\n      padding: 0;\n      font-family: 'Inter', Arial, sans-serif;\n      background: #000;\n      min-height: 100vh;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      padding: 20px;\n    }\n    \n    .about-container {\n      background: #333;\n      color: white;\n      padding: 50px 40px;\n      border-radius: 16px;\n      max-width: 900px;\n      width: 100%;\n      box-shadow: 0 8px 30px rgba(0,0,0,0.5);\n      position: relative;\n      overflow: hidden;\n      line-height: 1.6;\n    }\n    \n    .about-container::before {\n      content: '';\n      position: absolute;\n      top: 0;\n      left: 0;\n      right: 0;\n      bottom: 0;\n      background: \n        radial-gradient(circle at 20% 30%, rgba(255,255,255,0.3) 0%, transparent 40%),\n        radial-gradient(circle at 80% 70%, rgba(128,128,128,0.4) 0%, transparent 35%),\n        radial-gradient(circle at 50% 20%, rgba(64,64,64,0.5) 0%, transparent 50%),\n        radial-gradient(circle at 10% 80%, rgba(192,192,192,0.3) 0%, transparent 30%),\n        radial-gradient(circle at 90% 10%, rgba(96,96,96,0.4) 0%, transparent 45%),\n        radial-gradient(circle at 70% 90%, rgba(160,160,160,0.3) 0%, transparent 40%),\n        radial-gradient(circle at 30% 60%, rgba(48,48,48,0.6) 0%, transparent 35%),\n        radial-gradient(circle at 60% 40%, rgba(224,224,224,0.2) 0%, transparent 55%);\n      animation: \n        spiral1 15s linear infinite,\n        bubble1 8s ease-in-out infinite,\n        noise1 12s linear infinite;\n      z-index: 1;\n    }\n    \n    .about-container::after {\n      content: '';\n      position: absolute;\n      top: 0;\n      left: 0;\n      right: 0;\n      bottom: 0;\n      background: \n        radial-gradient(circle at 40% 90%, rgba(0,0,0,0.4) 0%, transparent 30%),\n        radial-gradient(circle at 85% 25%, rgba(255,255,255,0.2) 0%, transparent 60%),\n        radial-gradient(circle at 15% 45%, rgba(112,112,112,0.5) 0%, transparent 40%),\n        radial-gradient(circle at 75% 65%, rgba(32,32,32,0.6) 0%, transparent 35%),\n        radial-gradient(circle at 25% 15%, rgba(176,176,176,0.3) 0%, transparent 50%),\n        radial-gradient(circle at 95% 85%, rgba(80,80,80,0.4) 0%, transparent 25%);\n      animation: \n        spiral2 18s linear infinite reverse,\n        bubble2 10s ease-in-out infinite,\n        noise2 14s linear infinite reverse;\n      z-index: 2;\n    }\n    \n    .about-container > * {\n      position: relative;\n      z-index: 3;\n    }\n    \n    h1 {\n      font-size: 3rem;\n      font-weight: 100;\n      text-align: center;\n      margin-bottom: 40px;\n      letter-spacing: 0.05em;\n      animation: breathe-title 4s ease-in-out infinite;\n    }\n    \n    .skill-section {\n      margin: 35px 0;\n      padding: 20px 0;\n    }\n    \n    .skill-title {\n      font-size: 1.8rem;\n      font-weight: 300;\n      margin-bottom: 15px;\n      text-decoration: none;\n      color: #ffffff;\n      display: inline-block;\n      transition: all 0.3s ease;\n    }\n    \n    .skill-title:hover {\n      transform: scale(1.02);\n      text-shadow: 0 0 15px rgba(255,255,255,0.4);\n    }\n    \n    .skill-description {\n      font-size: 1.1rem;\n      font-weight: 300;\n      color: #e0e0e0;\n      margin-left: 0;\n    }\n    \n    .skill-title.gis {\n      animation: breathe-gis 3.5s ease-in-out infinite;\n    }\n    \n    .skill-title.music {\n      animation: breathe-music 3s ease-in-out infinite;\n    }\n    \n    .skill-title.art {\n      animation: breathe-art 2.5s ease-in-out infinite;\n    }\n    \n    .skill-title.mushroom {\n      animation: breathe-mushroom 4s ease-in-out infinite;\n    }\n    \n    @keyframes spiral1 {\n      0% { transform: rotate(0deg) scale(1); }\n      25% { transform: rotate(90deg) scale(1.1); }\n      50% { transform: rotate(180deg) scale(0.9); }\n      75% { transform: rotate(270deg) scale(1.05); }\n      100% { transform: rotate(360deg) scale(1); }\n    }\n    \n    @keyframes spiral2 {\n      0% { transform: rotate(0deg) scale(0.8); }\n      33% { transform: rotate(120deg) scale(1.2); }\n      66% { transform: rotate(240deg) scale(0.7); }\n      100% { transform: rotate(360deg) scale(0.8); }\n    }\n    \n    @keyframes bubble1 {\n      0%, 100% { \n        background-size: 200% 200%, 150% 150%, 180% 180%, 120% 120%, 160% 160%, 140% 140%, 110% 110%, 190% 190%;\n      }\n      50% { \n        background-size: 250% 250%, 200% 200%, 230% 230%, 170% 170%, 210% 210%, 190% 190%, 160% 160%, 240% 240%;\n      }\n    }\n    \n    @keyframes bubble2 {\n      0%, 100% { \n        background-size: 180% 180%, 220% 220%, 160% 160%, 140% 140%, 200% 200%, 130% 130%;\n      }\n      50% { \n        background-size: 230% 230%, 270% 270%, 210% 210%, 190% 190%, 250% 250%, 180% 180%;\n      }\n    }\n    \n    @keyframes noise1 {\n      0% { background-position: 0% 0%, 100% 100%, 50% 0%, 0% 100%, 100% 0%, 50% 100%, 25% 25%, 75% 75%; }\n      25% { background-position: 25% 25%, 75% 75%, 100% 25%, 25% 75%, 75% 25%, 0% 75%, 50% 50%, 100% 0%; }\n      50% { background-position: 50% 50%, 50% 50%, 0% 50%, 50% 50%, 50% 50%, 25% 50%, 75% 75%, 25% 25%; }\n      75% { background-position: 75% 75%, 25% 25%, 25% 75%, 75% 25%, 25% 75%, 50% 25%, 0% 0%, 50% 50%; }\n      100% { background-position: 100% 100%, 0% 0%, 50% 100%, 100% 0%, 0% 100%, 75% 0%, 25% 25%, 75% 75%; }\n    }\n    \n    @keyframes noise2 {\n      0% { background-position: 50% 50%, 0% 100%, 100% 0%, 25% 75%, 75% 25%, 50% 0%; }\n      33% { background-position: 75% 25%, 33% 66%, 66% 33%, 50% 50%, 100% 75%, 25% 100%; }\n      66% { background-position: 25% 75%, 66% 33%, 33% 66%, 75% 25%, 50% 100%, 0% 50%; }\n      100% { background-position: 0% 0%, 100% 0%, 0% 100%, 100% 100%, 25% 25%, 75% 75%; }\n    }\n    \n    @keyframes breathe-title {\n      0%, 100% {\n        color: #ffffff;\n      }\n      50% {\n        color: #f0f0f0;\n      }\n    }\n    \n    @keyframes breathe-gis {\n      0%, 100% {\n        color: #ffffff;\n      }\n      50% {\n        color: #4ecdc4;\n      }\n    }\n    \n    @keyframes breathe-music {\n      0%, 100% {\n        color: #ffffff;\n      }\n      50% {\n        color: #ff6b9d;\n      }\n    }\n    \n    @keyframes breathe-art {\n      0%, 100% {\n        color: #ffffff;\n      }\n      50% {\n        color: #ffd93d;\n      }\n    }\n    \n    @keyframes breathe-mushroom {\n      0%, 100% {\n        color: #ffffff;\n      }\n      50% {\n        color: #66bb6a;\n      }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"about-container\">\n    <h1>About</h1>\n    \n    <div class=\"skill-section\">\n      <a href=\"https://connoi.se/music/\" class=\"skill-title music\">Music</a>\n      <p class=\"skill-description\">\n        I am the internet decomposing.\n      </p>\n    </div>\n    \n    <div class=\"skill-section\">\n      <a href=\"https://connoi.se/GIS/\" class=\"skill-title gis\">GIS</a>\n      <p class=\"skill-description\">\n        Over a decade of experience in Geographic Information Systems, including extensive government sector work. Specialized in advanced map production, spatial analysis, and integrating cutting-edge AI tools to solve complex geographic challenges.\n      </p>\n    </div>\n    \n    <div class=\"skill-section\">\n      <a href=\"https://connoi.se/art/\" class=\"skill-title art\">Digital Art</a>\n      <p class=\"skill-description\">\n        Generative art taps into the flowing arteries of the universe. Simple, rhizomatic.\n      </p>\n    </div>\n    \n    <div class=\"skill-section\">\n      <a href=\"https://connoi.se/mushroom/\" class=\"skill-title mushroom\">Mushroom Growing</a>\n      <p class=\"skill-description\">\n        They are models of a interconnected system. Mycelial systems allow for a differentiation of organs from the otherwise absent structure of noise. \n      </p>\n    </div>\n  </div>\n</body>\n</html>\n\n<p></p>"
+    },
+    {
+      "id": "747",
+      "title": "GIS",
+      "slug": "gis",
+      "link": "https://connoi.se/gis/",
+      "date": "Tue, 27 May 2025 22:10:29 +0000",
+      "author": "connoise",
+      "content": "<h1 class=\"wp-block-heading\">About</h1>\n\n<p>With over a decade of experience in geographic information systems, I transform spatial data into actionable insights and compelling visual narratives. My practice combines rigorous analytical methodology with creative cartographic design, bridging the technical precision of GIS with the art of effective communication.</p>\n\n<h2 class=\"wp-block-heading\">Professional Background</h2>\n\n<p>My foundation in geographic thinking began with a Bachelor of Arts in Geography from the University of Hawaii at Manoa, where I developed a deep appreciation for spatial relationships and environmental systems. This academic grounding in geographic theory and methodology has proven invaluable throughout my decade-long professional journey.</p>\n\n<p>My GIS practice spans traditional spatial analysis to cutting-edge AI-enhanced workflows. I believe that geographic data tells stories\u2014about communities, environments, and the complex relationships that shape our world. My role is to listen to that data carefully and translate its patterns into maps and analyses that inform decisions and inspire understanding.</p>\n\n<p>Through years of production work across both private and government sectors, I've developed an intuitive sense for data quality, spatial relationships, and the subtle details that separate good analysis from great insights. My experience with government planning systems has given me deep insight into regulatory frameworks, public sector workflows, and the unique challenges of municipal and regional planning processes. Every project becomes an opportunity to reveal hidden connections and make the invisible visible.</p>\n\n<h2 class=\"wp-block-heading\">Technical Capabilities</h2>\n\n<p>My toolkit has evolved alongside the GIS industry, embracing both established methodologies and emerging technologies:</p>\n\n<p><strong>Core GIS Production</strong></p>\n\n<ul class=\"wp-block-list\">\n<li>Advanced spatial analysis and geoprocessing</li>\n\n<li>Database design and geodatabase management</li>\n\n<li>Cartographic design and map production for diverse audiences</li>\n\n<li>Multi-scale analysis from local site studies to regional planning</li>\n</ul>\n\n<p><strong>Automation &amp; Development</strong></p>\n\n<ul class=\"wp-block-list\">\n<li>Python scripting for geoprocessing automation and custom tools</li>\n\n<li>Workflow optimization and batch processing systems</li>\n\n<li>Model development for repetitive analytical tasks</li>\n</ul>\n\n<p><strong>Modern Integration</strong></p>\n\n<ul class=\"wp-block-list\">\n<li>AI-enhanced spatial analysis and pattern recognition</li>\n\n<li>Machine learning applications for geographic data</li>\n\n<li>Integration of traditional GIS with contemporary data science approaches</li>\n</ul>\n\n<h2 class=\"wp-block-heading\">Analytical Philosophy</h2>\n\n<p>Geography is fundamentally about relationships\u2014between places, people, and processes. My analytical approach prioritizes understanding these connections over simply processing data. I design workflows that not only produce results efficiently but also maintain analytical integrity and reproducibility.</p>\n\n<p>Every map is an argument, every analysis a perspective. I'm committed to creating work that is both technically sound and ethically responsible, recognizing that GIS outputs influence real-world decisions affecting communities and environments.</p>\n\n<h2 class=\"wp-block-heading\">Value Proposition</h2>\n\n<p>In an era of big data and automated analysis, the human geographer's role becomes more crucial, not less. I bring contextual understanding, methodological rigor, and creative problem-solving to spatial challenges. My decade of experience means I can quickly identify the right analytical approach, anticipate potential pitfalls, and deliver results that stakeholders can trust and act upon.</p>\n\n<p>Whether developing custom workflows for complex spatial problems or producing publication-ready cartography, I combine technical expertise with geographic insight to transform data into knowledge.</p>"
+    },
+    {
+      "id": "755",
+      "title": "Art and Other Projects",
+      "slug": "art",
+      "link": "https://connoi.se/art/",
+      "date": "Tue, 27 May 2025 22:06:11 +0000",
+      "author": "connoise",
+      "content": "<figure class=\"wp-block-image size-full\"><img src=\"https://connoi.se/wp-content/uploads/2021/09/eyeshort_singleloop_small.gif\" alt=\"\" class=\"wp-image-86\"/></figure>\n\n<h1 class=\"wp-block-heading\">About</h1>\n\n<h2 class=\"wp-block-heading\"></h2>\n\n<p><strong>Creative Development</strong></p>\n\n<ul class=\"wp-block-list\">\n<li>Python for generative algorithms and data visualization</li>\n\n<li>TouchDesigner for real-time interactive installations and audiovisual performance</li>\n\n<li>Generative processes for live experimental works</li>\n</ul>\n\n<p><strong>Production &amp; Post</strong></p>\n\n<ul class=\"wp-block-list\">\n<li>DaVinci Resolve for video editing and color grading</li>\n\n<li>NVIDIA CUDA acceleration for computationally intensive rendering and real-time processing</li>\n</ul>\n\n<h2 class=\"wp-block-heading\">Philosophy</h2>\n\n<p>Art disintegrates the utilitarian function of the physical and creates new units of observation. It's an evolutionary lineage inherited through systems older than the senses. Art is the organelle that forms the structure and categorization of quantized elements from noise; the emergence of plurality follows art.</p>\n\n<p></p>"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "Hello world!",
+      "slug": "hello-world",
+      "link": "https://connoi.se/2021/08/hello-world/",
+      "date": "Sat, 07 Aug 2021 00:41:39 +0000",
+      "author": "connoise",
+      "content": "<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>"
+    }
+  ],
+  "media": [
+    {
+      "id": "37",
+      "title": "Day",
+      "url": "https://connoi.se/wp-content/uploads/2021/08/Day.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "38",
+      "title": "Easy",
+      "url": "https://connoi.se/wp-content/uploads/2021/08/Easy.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "39",
+      "title": "Hard",
+      "url": "https://connoi.se/wp-content/uploads/2021/08/Hard.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "40",
+      "title": "Max",
+      "url": "https://connoi.se/wp-content/uploads/2021/08/Max.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "41",
+      "title": "night",
+      "url": "https://connoi.se/wp-content/uploads/2021/08/night.png",
+      "type": "attachment"
+    },
+    {
+      "id": "44",
+      "title": "micromashivol3",
+      "url": "https://connoi.se/wp-content/uploads/2021/08/micromashivol3.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "52",
+      "title": "[Easy] - Beach Beach BEACH",
+      "url": "https://connoi.se/wp-content/uploads/2021/08/Easy-Beach-Beach-BEACH.zip",
+      "type": "attachment"
+    },
+    {
+      "id": "53",
+      "title": "[Normal] Mashi Mashiiin Maschin3",
+      "url": "https://connoi.se/wp-content/uploads/2021/08/Normal-Mashi-Mashiiin-Maschin3.zip",
+      "type": "attachment"
+    },
+    {
+      "id": "57",
+      "title": "Easy-1",
+      "url": "https://connoi.se/wp-content/uploads/2021/08/Easy-1.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "58",
+      "title": "Day-1",
+      "url": "https://connoi.se/wp-content/uploads/2021/08/Day-1.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "59",
+      "title": "Day-2",
+      "url": "https://connoi.se/wp-content/uploads/2021/08/Day-2.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "60",
+      "title": "night-1",
+      "url": "https://connoi.se/wp-content/uploads/2021/08/night-1.png",
+      "type": "attachment"
+    },
+    {
+      "id": "71",
+      "title": "skyshort_singleloop3",
+      "url": "https://connoi.se/wp-content/uploads/2021/09/skyshort_singleloop3.gif",
+      "type": "attachment"
+    },
+    {
+      "id": "85",
+      "title": "eyeshort_singleloop",
+      "url": "https://connoi.se/wp-content/uploads/2021/09/eyeshort_singleloop-scaled.gif",
+      "type": "attachment"
+    },
+    {
+      "id": "86",
+      "title": "eyeshort_singleloop_small",
+      "url": "https://connoi.se/wp-content/uploads/2021/09/eyeshort_singleloop_small.gif",
+      "type": "attachment"
+    },
+    {
+      "id": "97",
+      "title": "Easy",
+      "url": "https://connoi.se/wp-content/uploads/2021/09/Easy.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "122",
+      "title": "Helpless M",
+      "url": "https://connoi.se/wp-content/uploads/2021/09/8-Helpless-M.mp3",
+      "type": "attachment"
+    },
+    {
+      "id": "123",
+      "title": "Untitled",
+      "url": "https://connoi.se/wp-content/uploads/2021/09/8-Helpless-M-mp3-image.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "124",
+      "title": "Helpless M",
+      "url": "https://connoi.se/wp-content/uploads/2021/09/8-Helpless-M-1.mp3",
+      "type": "attachment"
+    },
+    {
+      "id": "130",
+      "title": "Day",
+      "url": "https://connoi.se/wp-content/uploads/2021/10/Day.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "133",
+      "title": "night",
+      "url": "https://connoi.se/wp-content/uploads/2021/10/night.png",
+      "type": "attachment"
+    },
+    {
+      "id": "135",
+      "title": "Hard",
+      "url": "https://connoi.se/wp-content/uploads/2021/10/Hard.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "160",
+      "title": "Hard",
+      "url": "https://connoi.se/wp-content/uploads/2022/01/Hard.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "161",
+      "title": "Hard-1",
+      "url": "https://connoi.se/wp-content/uploads/2022/01/Hard-1.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "169",
+      "title": "Max",
+      "url": "https://connoi.se/wp-content/uploads/2022/01/Max.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "203",
+      "title": "micromashivol3",
+      "url": "https://connoi.se/wp-content/uploads/2022/01/micromashivol3.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "229",
+      "title": "Capture",
+      "url": "https://connoi.se/wp-content/uploads/2022/01/Capture.png",
+      "type": "attachment"
+    },
+    {
+      "id": "238",
+      "title": "ULTRA-RARE",
+      "url": "https://connoi.se/wp-content/uploads/2022/02/ULTRA-RARE.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "247",
+      "title": "ULTRA-RARE-1",
+      "url": "https://connoi.se/wp-content/uploads/2022/02/ULTRA-RARE-1.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "273",
+      "title": "SNOW_20221219_100726_292",
+      "url": "https://connoi.se/wp-content/uploads/2023/05/SNOW_20221219_100726_292.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "312",
+      "title": "njnaruto",
+      "url": "https://connoi.se/wp-content/uploads/2023/12/njnaruto.ttf",
+      "type": "attachment"
+    },
+    {
+      "id": "313",
+      "title": "VCR",
+      "url": "https://connoi.se/wp-content/uploads/2023/12/VCR_OSD_MONO_1.001.ttf",
+      "type": "attachment"
+    },
+    {
+      "id": "320",
+      "title": "Naruto",
+      "url": "https://connoi.se/wp-content/uploads/2023/12/njnaruto-1.ttf",
+      "type": "attachment"
+    },
+    {
+      "id": "340",
+      "title": "282_Regigigas",
+      "url": "https://connoi.se/wp-content/uploads/2023/12/282_Regigigas.webp",
+      "type": "attachment"
+    },
+    {
+      "id": "341",
+      "title": "282_Regigigas",
+      "url": "https://connoi.se/wp-content/uploads/2023/12/282_Regigigas.png",
+      "type": "attachment"
+    },
+    {
+      "id": "413",
+      "title": "Who-Remembers-the-Ocean_2024_02_07",
+      "url": "https://connoi.se/wp-content/uploads/2024/02/Who-Remembers-the-Ocean_2024_02_07.mp3",
+      "type": "attachment"
+    },
+    {
+      "id": "416",
+      "title": "Osanshouo_24_2_07",
+      "url": "https://connoi.se/wp-content/uploads/2024/02/Osanshouo_24_2_07.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "418",
+      "title": "Dear-Lonliness-and-Sadness-Piano-Crazy_2024_01",
+      "url": "https://connoi.se/wp-content/uploads/2024/02/Dear-Lonliness-and-Sadness-Piano-Crazy_2024_01.mp3",
+      "type": "attachment"
+    },
+    {
+      "id": "420",
+      "title": "Dear-Lonliness-and-Sadness-intro-Demo-_01_2024",
+      "url": "https://connoi.se/wp-content/uploads/2024/02/Dear-Lonliness-and-Sadness-intro-Demo-_01_2024.mp3",
+      "type": "attachment"
+    },
+    {
+      "id": "424",
+      "title": "Theia-Part-2-Genesis-of-Two-Skys",
+      "url": "https://connoi.se/wp-content/uploads/2024/02/Theia-Part-2-Genesis-of-Two-Skys.mp3",
+      "type": "attachment"
+    },
+    {
+      "id": "429",
+      "title": "Distortions-of-a-Translucent-Body-2023",
+      "url": "https://connoi.se/wp-content/uploads/2024/02/Distortions-of-a-Translucent-Body-2023.mp3",
+      "type": "attachment"
+    },
+    {
+      "id": "431",
+      "title": "Pokemon-Village-Bridge11_11",
+      "url": "https://connoi.se/wp-content/uploads/2024/02/Pokemon-Village-Bridge11_11.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "445",
+      "title": "01-Stingray-V2",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/01-Stingray-V2.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "457",
+      "title": "Vocaroo-18O7RVCteO7U",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/Vocaroo-18O7RVCteO7U.mp3",
+      "type": "attachment"
+    },
+    {
+      "id": "459",
+      "title": "Vocaroo-16R1L2yGM7lT",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/Vocaroo-16R1L2yGM7lT.mp3",
+      "type": "attachment"
+    },
+    {
+      "id": "463",
+      "title": "02-Flinched",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/02-Flinched.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "465",
+      "title": "03-Enough-For-You",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/03-Enough-For-You.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "466",
+      "title": "04-Thursdays-Lessons",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/04-Thursdays-Lessons.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "470",
+      "title": "05-Till-I-Die-Trap-Remix",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/05-Till-I-Die-Trap-Remix.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "472",
+      "title": "06-Witch-Hat",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/06-Witch-Hat.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "476",
+      "title": "08-dot-Fake-Wings",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/08-dot-Fake-Wings.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "479",
+      "title": "09-Hot",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/09-Hot.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "482",
+      "title": "10-Failed-Remora-Song",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/10-Failed-Remora-Song.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "485",
+      "title": "11-Pakalolo-Song",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/11-Pakalolo-Song.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "489",
+      "title": "15-Deep-Breath",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/15-Deep-Breath.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "491",
+      "title": "16-Letter",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/16-Letter.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "494",
+      "title": "17-Nothing-Happens-in-April",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/17-Nothing-Happens-in-April.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "499",
+      "title": "20-Kaomoji-Baby",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/20-Kaomoji-Baby.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "501",
+      "title": "22-Failure",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/22-Failure.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "503",
+      "title": "22-Failure-1",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/22-Failure-1.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "505",
+      "title": "23-Pass-Interference",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/23-Pass-Interference.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "508",
+      "title": "24-Hardware",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/24-Hardware.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "511",
+      "title": "25-Unomplimentary-Hues",
+      "url": "https://connoi.se/wp-content/uploads/2024/04/25-Unomplimentary-Hues.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "566",
+      "title": "20240626_190237",
+      "url": "https://connoi.se/wp-content/uploads/2024/06/20240626_190237-scaled.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "590",
+      "title": "20240626_190237-1",
+      "url": "https://connoi.se/wp-content/uploads/2024/06/20240626_190237-1-scaled.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "619",
+      "title": "01 - Drinking Tonic Till I Vomit",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/01-Drinking-Tonic-Till-I-Vomit.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "620",
+      "title": "02 - Dole Whip Murder Story",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/02-Dole-Whip-Murder-Story.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "621",
+      "title": "03 - Villain Arc",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/03-Villain-Arc.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "622",
+      "title": "04 - ADHDiligence",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/04-ADHDiligence.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "624",
+      "title": "05 - Eepy so Sleepy(I Miss You)",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/05-Eepy-so-SleepyI-Miss-You.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "625",
+      "title": "06 - Cetaphil",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/06-Cetaphil.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "626",
+      "title": "07 - Can You Stand Beneath the Judgment of Starlight",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/07-Can-You-Stand-Beneath-the-Judgment-of-Starlight.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "627",
+      "title": "08 - 22 Years",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/08-22-Years.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "628",
+      "title": "09 - You Make the World",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/09-You-Make-the-World.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "629",
+      "title": "10 - How can you do it",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/10-How-can-you-do-it.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "630",
+      "title": "11 - Pompompurin",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/11-Pompompurin.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "631",
+      "title": "12- Noneful",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/12-Noneful.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "632",
+      "title": "13 - AliExpress Sailor Fuku",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/13-AliExpress-Sailor-Fuku.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "633",
+      "title": "14 - Two Weeks",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/14-Two-Weeks.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "634",
+      "title": "15 - Easter Basket Grass",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/15-Easter-Basket-Grass.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "635",
+      "title": "16 - Crxsxs",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/16-Crxsxs.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "636",
+      "title": "18 - If You Think This is AI You an Op",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/18-If-You-Think-This-is-AI-You-an-Op.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "637",
+      "title": "17 - Three Meditations on Dissociation",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/17-Three-Meditations-on-Dissociation.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "638",
+      "title": "19 - One Billion Seconds",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/19-One-Billion-Seconds.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "639",
+      "title": "20 - It Can Be a Holiday",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/20-It-Can-Be-a-Holiday.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "640",
+      "title": "21 - Chill Beat - Master",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/21-Chill-Beat-Master.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "642",
+      "title": "21 - Chill Beat - Master",
+      "url": "https://connoi.se/wp-content/uploads/2025/04/21-Chill-Beat-Master-1.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "652",
+      "title": "22 - Lock the Fuck In",
+      "url": "https://connoi.se/wp-content/uploads/2025/05/22-Lock-the-Fuck-In.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "653",
+      "title": "23 - Fruitigo Error",
+      "url": "https://connoi.se/wp-content/uploads/2025/05/23-Fruitigo-Error.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "654",
+      "title": "24 - Speak to the Waiting",
+      "url": "https://connoi.se/wp-content/uploads/2025/05/24-Speak-to-the-Waiting.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "655",
+      "title": "26 - Dont Worry Envy",
+      "url": "https://connoi.se/wp-content/uploads/2025/05/26-Dont-Worry-Envy.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "656",
+      "title": "25 - All That is Left Now is Cope",
+      "url": "https://connoi.se/wp-content/uploads/2025/05/25-All-That-is-Left-Now-is-Cope.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "657",
+      "title": "27 - Heart Rate BPM 159",
+      "url": "https://connoi.se/wp-content/uploads/2025/05/27-Heart-Rate-BPM-159.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "658",
+      "title": "29 - Life Amiss but Bliss",
+      "url": "https://connoi.se/wp-content/uploads/2025/05/29-Life-Amiss-but-Bliss.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "659",
+      "title": "28 - Caught in the Rain",
+      "url": "https://connoi.se/wp-content/uploads/2025/05/28-Caught-in-the-Rain.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "660",
+      "title": "30 - Longs Drugs Receipt Conquest",
+      "url": "https://connoi.se/wp-content/uploads/2025/05/30-Longs-Drugs-Receipt-Conquest.wav",
+      "type": "attachment"
+    },
+    {
+      "id": "672",
+      "title": "output-onlinepngtools(1)",
+      "url": "https://connoi.se/wp-content/uploads/2025/05/output-onlinepngtools1.png",
+      "type": "attachment"
+    },
+    {
+      "id": "693",
+      "title": "micromashivol3-768x768",
+      "url": "https://connoi.se/wp-content/uploads/2025/05/micromashivol3-768x768-1.jpg",
+      "type": "attachment"
+    },
+    {
+      "id": "710",
+      "title": "output-onlinepngtools(1)",
+      "url": "https://connoi.se/wp-content/uploads/2025/05/output-onlinepngtools1-1.png",
+      "type": "attachment"
+    }
+  ]
+}
