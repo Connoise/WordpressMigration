@@ -1,0 +1,7 @@
+# Exclude files over Cloudflare Pages 25MB limit
+media/downloads/*.wav
+media/downloads/*.zip
+media/downloads/skyshort_singleloop3.gif
+
+# Git internals
+.git

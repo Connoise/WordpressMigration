@@ -1,0 +1,8 @@
+# Media downloads — too large for GitHub, deployed separately
+media/downloads/
+
+# Wrangler cache
+.wrangler/
+
+# Local deploy staging
+/tmp/connoise-deploy/
