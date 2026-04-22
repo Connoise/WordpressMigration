@@ -1,0 +1,54 @@
+# Cloudflare Pages _redirects
+# Maps old WordPress URLs → new static paths
+# Format: /old-path  /new-path  301
+
+# Homepage
+/home                               /                           301
+
+# Main sections
+/music/                             /pages/music.html           301
+/music                              /pages/music.html           301
+/about/                             /pages/about.html           301
+/about                              /pages/about.html           301
+/contact/                           /pages/contact.html         301
+/contact                            /pages/contact.html         301
+/gis/                               /pages/gis.html             301
+/gis                                /pages/gis.html             301
+/art/                               /pages/art.html             301
+/art                                /pages/art.html             301
+/newsletter/                        /pages/newsletter.html      301
+/newsletter                         /pages/newsletter.html      301
+/letters/                           /pages/letters.html         301
+/letters                            /pages/letters.html         301
+/streams/                           /pages/streams.html         301
+
+# Music releases
+/music/all-projects/                /pages/all-projects.html    301
+/music/all-projects                 /pages/all-projects.html    301
+/music/april-2025-daily-songwriting-exercise/  /pages/april-2025-daily-songwriting-exercise.html  301
+/music/nothing-happens-in-april/    /pages/nothing-happens-in-april.html  301
+/nothing-happens-in-april/          /pages/nothing-happens-in-april.html  301
+/music/dailyapril2024/              /pages/dailyapril2024.html  301
+/music/u/                           /pages/u.html               301
+/music/ur12_30/                     /pages/ur12_30.html         301
+/music/streams/                     /pages/streams.html         301
+/music/micromashii-vol-3/           /pages/micromashii-vol-3.html  301
+/music/micromashii-vol-3/mm3-1/     /pages/mm3-1.html           301
+/music/micromashii-vol-3/mm3-2/     /pages/mm3-2.html           301
+/music/micromashii-vol-3/mm3-3/     /pages/mm3-3.html           301
+/music/micromashii-vol-3/mm3-4/     /pages/mm3-4.html           301
+/micromashii/                       /pages/micromashii.html     301
+
+# Letters / newsletter entries
+/newsletter/january-2024/           /pages/january-2024.html    301
+/january-2024/                      /pages/january-2024.html    301
+/letters/january-2024/              /pages/january-2024.html    301
+/letters/february-2024-surviving-the-internet/  /pages/february-2024-surviving-the-internet.html  301
+
+# Blog posts
+/2021/08/hello-world/              /posts/hello-world.html     301
+
+# WordPress admin — redirect away cleanly
+/wp-admin/*                         /                           301
+/wp-login.php                       /                           301
+/wp-content/*                       /                           301
