@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuuning-Byou - Agoe the Idol//connoise</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1, h2, h3 { margin-top: 2em; }
+        img { max-width: 100%; height: auto; }
+        .metadata {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">← Home</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Chuuning-Byou</h1>
+            <div class="metadata">
+                <span>By connoise</span> | <span>Code Projects</span>
+            </div>
+            <div class="content">
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chuuning-Byou</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap');
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Inter', Arial, sans-serif;
+      background: #000;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .container {
+      background: #333;
+      color: white;
+      padding: 50px 40px;
+      border-radius: 16px;
+      max-width: 700px;
+      width: 100%;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+      line-height: 1.6;
+    }
+    h1 { font-size: 2em; font-weight: 700; margin-top: 0; }
+    h2 { font-size: 1.2em; font-weight: 300; color: #aaa; margin-top: 1.5em; border-bottom: 1px solid #555; padding-bottom: 0.3em; }
+    p { color: #ccc; }
+    ul { color: #ccc; padding-left: 1.5em; }
+    li { margin-bottom: 0.4em; }
+    .tag {
+      display: inline-block;
+      background: #555;
+      color: #ddd;
+      font-size: 0.8em;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin: 3px 2px;
+    }
+    .status {
+      display: inline-block;
+      background: linear-gradient(to right, purple, maroon);
+      color: white;
+      font-size: 0.85em;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 1em;
+    }
+    .subtitle {
+      color: #999;
+      font-size: 0.95em;
+      font-style: italic;
+      margin-bottom: 1.5em;
+    }
+    .signal-flow {
+      background: #222;
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-family: monospace;
+      font-size: 0.85em;
+      color: #adf;
+      margin: 1em 0;
+      line-height: 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Chuuning-Byou</h1>
+    <p class="subtitle">中二病 — "8th Grader Syndrome" (delusions of power and uniqueness)</p>
+    <span class="status">Code Project — VST3 Plugin</span>
+    <p>A Windows VST3 vocal processing plugin combining real-time pitch correction with dynamic harmonic region shaping. Built for vocals that need character — supports both natural correction and intentionally robotic tuning.</p>
+    <h2>Signal Flow</h2>
+    <div class="signal-flow">
+      Mono Input → Pitch Detection → Target Selection (MIDI / Scale)<br>
+      → Pitch Correction → Harmonic Region Processing<br>
+      → Wet/Dry Mix → Output Limiter → Mono Output
+    </div>
+    <h2>Features</h2>
+    <ul>
+      <li>Low-latency pitch detection and correction with adjustable retune speed</li>
+      <li>Two pitch-shift algorithms: time-domain (natural) and granular (robotic)</li>
+      <li>MIDI input support — highest held note sets target pitch</li>
+      <li>5 dynamic harmonic regions, centered at multiples of detected f₀</li>
+      <li>Per-region gain and Q (bandwidth) controls</li>
+      <li>Automatic fallback to scale-based correction when no MIDI held</li>
+      <li>Harmonic processing bypasses outside 80Hz–12kHz vocal range</li>
+    </ul>
+    <h2>Stack</h2>
+    <div>
+      <span class="tag">C++</span>
+      <span class="tag">JUCE</span>
+      <span class="tag">VST3</span>
+      <span class="tag">Windows</span>
+      <span class="tag">DSP</span>
+    </div>
+    <h2>Purpose</h2>
+    <p>Built to serve Agoe the Idol's live and studio vocal chain. The harmonic shaping approach came from wanting pitch correction that feels expressive and sculptural rather than transparent and corrective.</p>
+  </div>
+</body>
+</html>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
